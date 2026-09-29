@@ -1,0 +1,4 @@
+ts	phase	decision	why	evidence	result
+2026-09-29T00:00:00+02:00	cadrage	Adopter le plan joint comme contrat canonique	Le plan fixe les livrables, les modèles et les critères d'acceptation	/Users/emma.anastassova/.codex/attachments/d999145d-31c7-4126-8352-1b8e34e3eb5e/Pasted text.txt	accepté
+2026-09-29T00:00:01+02:00	méthode	Utiliser pstack de façon sélective pour la recherche documentaire	Les workflows de code ne correspondent pas aux livrables Markdown	project/research-contract.md	actif
+2026-09-29T00:00:02+02:00	organisation	Séparer les chercheurs par question et par fichier	Éviter les écritures concurrentes et rendre chaque résultat vérifiable	project/audit/workplan.md	actif
