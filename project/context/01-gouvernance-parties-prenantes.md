@@ -8,6 +8,22 @@ Cette cartographie utilise les attributions explicites des sources, consultées 
 
 Les événements `EVENT-*` sont définis dans la [chronologie](00-chronologie-perimetre.md). Les groupes réunis dans une même ligne sont un regroupement analytique ; ils ne constituent pas nécessairement une entité de commandement commune.
 
+Le schéma résume les interfaces que les sources permettent de suivre. Les flèches représentent une relation documentée ou une dépendance explicitement analysable, pas une hiérarchie juridique complète.
+
+```mermaid
+flowchart TD
+    A[État et préfectures] --> B[Coordination des accès et de la sûreté]
+    C[Paris 2024 et direction artistique] --> D[Production et cérémonie]
+    E[VNF et HAROPA] --> F[Navigation et espaces fluviaux]
+    G[IDFM RATP SNCF] --> H[Transport et acheminement]
+    B --> D
+    F --> D
+    H --> D
+    I[Public habitants entreprises<br/>et délégations] --> D
+```
+
+La responsabilité d'une décision précise exige une pièce plus fine — contrat, arrêté, délégation ou journal de décision — que la seule présence d'un acteur dans ce schéma.
+
 | Identifiant | Acteur | Rôle documenté dans le projet ou son cadre | Interfaces et limites |
 |---|---|---|---|
 | <a id="STAKE-001"></a>STAKE-001 | COJOP / Paris 2024 ; Tony Estanguet ; Thierry Reboul | Planifier, organiser, financer et livrer les Jeux. Thierry Reboul dirige les cérémonies et décrit le travail commun avec la direction artistique, les agences et les pouvoirs publics. Direct.[^1][^2] | [EVENT-002](00-chronologie-perimetre.md#EVENT-002), [EVENT-004](00-chronologie-perimetre.md#EVENT-004), [EVENT-016](00-chronologie-perimetre.md#EVENT-016). Le détail des délégations de signature internes n'est pas établi. |

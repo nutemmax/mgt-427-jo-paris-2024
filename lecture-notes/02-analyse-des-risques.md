@@ -58,19 +58,17 @@ Pour un projet complexe, la cindynique conduit à poser plusieurs questions :
 - Quelles valeurs influencent l'aversion au risque ?
 - Comment plusieurs organisations coordonnent-elles leurs décisions ?
 
-## 2. Le modèle simple `R = p × g`
+## 2. Le modèle simple $R = p \times g$
 
 ### 2.1 Lecture du modèle
 
 Le support propose le calcul suivant :
 
-\[
-R = p \times g
-\]
+$$R = p \times g$$
 
-où `p` représente la probabilité d'occurrence et `g` la gravité des conséquences.[^6]
+où $p$ représente la probabilité d'occurrence et $g$ la gravité des conséquences.[^6]
 
-Ce modèle est utile pour expliquer qu'un événement rare mais catastrophique peut mériter autant d'attention qu'un événement fréquent aux conséquences faibles. Les courbes d'iso-risque représentent les combinaisons de `p` et `g` qui produisent une même valeur de `R`.
+Ce modèle est utile pour expliquer qu'un événement rare mais catastrophique peut mériter autant d'attention qu'un événement fréquent aux conséquences faibles. Les courbes d'iso-risque représentent les combinaisons de $p$ et $g$ qui produisent une même valeur de $R$.
 
 ```mermaid
 quadrantChart
@@ -85,7 +83,7 @@ quadrantChart
 
 ### 2.2 Limites du produit
 
-Le produit `p × g` ne suffit pas dans toutes les situations.
+Le produit $p \times g$ ne suffit pas dans toutes les situations.
 
 1. **Les échelles ordinales ne sont pas des nombres physiques.** Multiplier une probabilité notée 4 sur 5 par une gravité notée 3 sur 5 produit un rang utile, pas une perte attendue mesurée.
 2. **Des couples différents obtiennent le même score.** Un risque fréquent et faible peut recevoir le même résultat qu'un risque rare et catastrophique, alors que les décisions de traitement diffèrent.
@@ -113,13 +111,11 @@ Ces seuils doivent être définis avant de classer les risques. Sinon, l'équipe
 
 Le support écrit le risque combiné sous la forme d'une somme :
 
-\[
-R_c = (p_1g_1) + (p_2g_2) + \dots + (p_ng_n)
-\]
+$$R_c = (p_1g_1) + (p_2g_2) + \dots + (p_ng_n)$$
 
 Cette expression peut représenter une somme de pertes attendues lorsque chaque terme décrit une perte additive, exprimée dans la même unité.[^8] L'indépendance des événements n'est pas nécessaire pour additionner leurs espérances. En revanche, une cause commune ou une cascade change les probabilités des scénarios conjoints. Si deux termes comptent la même conséquence, leur somme la compte deux fois.
 
-> **Complément pédagogique calculé.** Un incident de probabilité `0,10` coûte `100 000 €` et un autre de probabilité `0,20` coûte `50 000 €`. Si les deux pertes s'ajoutent lorsqu'elles surviennent ensemble, la perte totale espérée vaut `0,10 × 100 000 + 0,20 × 50 000 = 20 000 €`, même si les incidents sont dépendants. La probabilité d'avoir au moins un incident exige, elle, de connaître leur intersection : `P(A ∪ B) = 0,10 + 0,20 − P(A ∩ B)`. Elle vaut `0,28` si les incidents sont indépendants, mais cette valeur ne peut pas être reprise sans cette hypothèse.
+> **Complément pédagogique calculé.** Un incident de probabilité $0{,}10$ coûte $100\,000\ \text{€}$ et un autre de probabilité $0{,}20$ coûte $50\,000\ \text{€}$. Si les deux pertes s'ajoutent lorsqu'elles surviennent ensemble, la perte totale espérée vaut $0{,}10 \times 100\,000 + 0{,}20 \times 50\,000 = 20\,000\ \text{€}$, même si les incidents sont dépendants. La probabilité d'avoir au moins un incident exige, elle, de connaître leur intersection : $P(A \cup B) = 0{,}10 + 0{,}20 - P(A \cap B)$. Elle vaut $0{,}28$ si les incidents sont indépendants, mais cette valeur ne peut pas être reprise sans cette hypothèse.
 
 ### 3.2 Dépendances
 
@@ -338,13 +334,13 @@ Ces exemples doivent être adaptés au projet. Une même échelle ne convient pa
 
 ### 6.2 Matrice de risques
 
-Les diapositives 39 et 40 appliquent le barème `1–2–4–8` à une matrice de 16 cases. Un produit `R ≤ 4` est vert et dit acceptable ; `4 < R ≤ 8` est jaune et « à considérer » ; `R > 8` est rouge et dit inacceptable. Ce sont les seuils de cet exemple, pas une règle générale. Ainsi, `p = 4` et `g = 2` donnent `R = 8`, tandis que `p = 8` et `g = 8` donnent `R = 64`.[^23]
+Les diapositives 39 et 40 appliquent le barème $1, 2, 4, 8$ à une matrice de 16 cases. Un produit $R \leq 4$ est vert et dit acceptable ; $4 < R \leq 8$ est jaune et « à considérer » ; $R > 8$ est rouge et dit inacceptable. Ce sont les seuils de cet exemple, pas une règle générale. Ainsi, $p = 4$ et $g = 2$ donnent $R = 8$, tandis que $p = 8$ et $g = 8$ donnent $R = 64$.[^23]
 
 ![Diapositive 40 : positionnement de risques sur la matrice de probabilité et de gravité](assets/02-risques/slide-40.png)
 
 La diapositive 40 ajoute des points de tailles différentes. Leur taille illustre la sensibilité aux facteurs du risque, sans fournir d'unité ni de formule supplémentaire. Elle invite donc à examiner la stabilité du classement lorsque l'on change les hypothèses. La couleur facilite la lecture, mais elle peut masquer cette incertitude. Le registre doit conserver le raisonnement derrière le point placé dans la matrice.
 
-La diapositive 41 compare des échelles publiques de danger d'avalanche et des drapeaux de baignade. Ce sont des outils de communication et d'action adaptés à leur activité. Ils ne fournissent pas une conversion directe vers le score `p × g` du projet.[^23]
+La diapositive 41 compare des échelles publiques de danger d'avalanche et des drapeaux de baignade. Ce sont des outils de communication et d'action adaptés à leur activité. Ils ne fournissent pas une conversion directe vers le score $p \times g$ du projet.[^23]
 
 Une bonne ligne de registre contient au minimum :
 
@@ -361,7 +357,7 @@ Une bonne ligne de registre contient au minimum :
 
 ### 6.3 AMDEC ou FMECA
 
-Les diapositives 42 à 44 introduisent l'analyse des modes de défaillance, de leurs effets et de leur criticité. Le support utilise la formule `C = G × F × D`, avec gravité, fréquence et détectabilité.[^24]
+Les diapositives 42 à 44 introduisent l'analyse des modes de défaillance, de leurs effets et de leur criticité. Le support utilise la formule $C = G \times F \times D$, avec gravité, fréquence et détectabilité.[^24]
 
 ![Diapositive 42 : gravité, fréquence et détectabilité dans l'AMDEC](assets/02-risques/slide-42.png)
 
@@ -378,13 +374,13 @@ Une AMDEC suit généralement cette séquence.
 7. Prioriser les actions.
 8. Réévaluer après traitement.
 
-> **Complément pédagogique calculé.** Avec le barème illustratif de la diapositive 43, la gravité et la fréquence vont de `1` à `5`, tandis que la détectabilité va de `1` à `4`. Un message non reçu, coté `G = 5`, `F = 2` et `D = 4`, aurait une criticité `C = 5 × 2 × 4 = 40`. Cet exemple de communication est construit pour la fiche ; il ne figure pas dans le support. Après ajout d'un accusé de réception, seul un nouveau jugement documenté permettrait de modifier `D` ou les autres notes.[^24]
+> **Complément pédagogique calculé.** Avec le barème illustratif de la diapositive 43, la gravité et la fréquence vont de $1$ à $5$, tandis que la détectabilité va de $1$ à $4$. Un message non reçu, coté $G = 5$, $F = 2$ et $D = 4$, aurait une criticité $C = 5 \times 2 \times 4 = 40$. Cet exemple de communication est construit pour la fiche ; il ne figure pas dans le support. Après ajout d'un accusé de réception, seul un nouveau jugement documenté permettrait de modifier $D$ ou les autres notes.[^24]
 
 | Fonction | Mode de défaillance | Effet | Cause | G | F | D | C | Action envisagée |
 |---|---|---|---|---:|---:|---:|---:|---|
 | Informer les responsables de zone | Message non reçu | Retard d'évacuation | Réseau saturé | 5 | 2 | 4 | 40 | Canal redondant et accusé de réception |
 
-Le produit `G × F × D` ne doit pas être appliqué mécaniquement. Des combinaisons très différentes peuvent obtenir le même score. IEC 60812 prévoit d'ailleurs plusieurs façons de prioriser et ne réduit pas toute FMEA à un unique nombre de priorité.[^25]
+Le produit $G \times F \times D$ ne doit pas être appliqué mécaniquement. Des combinaisons très différentes peuvent obtenir le même score. IEC 60812 prévoit d'ailleurs plusieurs façons de prioriser et ne réduit pas toute FMEA à un unique nombre de priorité.[^25]
 
 > **Correction importante.** Le support indique que l'AMDEC fait partie d'ISO 9000 ou de QS 9000. La référence internationale générique actuelle pour la FMEA et la FMECA est IEC 60812:2018. ISO 9000 concerne les principes essentiels et le vocabulaire du management de la qualité. Il vaut mieux présenter ces cadres comme liés historiquement ou par leurs usages qualité, sans confondre leurs objets.
 
@@ -392,15 +388,23 @@ Le produit `G × F × D` ne doit pas être appliqué mécaniquement. Des combina
 
 La diapositive 44 cite MOSAR, MADS, HAZOP, LOPA et HACCP.[^26]
 
-| Méthode | Point de départ | Usage privilégié | Limite principale |
+| Méthode | Point de départ | Sortie principale | Application adaptée |
 |---|---|---|---|
-| MOSAR | Système, sous-systèmes et scénarios | Analyse structurée des accidents | Mise en œuvre lourde sans périmètre clair |
-| MADS | Sources de danger, flux et cibles | Modélisation conceptuelle des dangers | Demande une traduction vers des actions concrètes |
-| HAZOP | Déviations par mots-guides | Procédés et opérations structurées | Moins naturel pour des risques très diffus |
-| LOPA | Scénario et couches de protection | Vérifier si les barrières indépendantes suffisent | Dépend fortement des données et de l'indépendance réelle |
-| HACCP | Dangers et points critiques | Sécurité alimentaire et processus maîtrisables | Champ spécialisé |
+| MOSAR | Système découpé en sous-systèmes | Scénarios d'accident, objectifs de sécurité et barrières | Installations ou organisations où plusieurs sous-systèmes interagissent |
+| MADS | Source de danger, flux dangereux et cible | Modèle conceptuel du processus de danger | Cadrage systémique avant une analyse détaillée |
+| HAZOP | Fonctionnement prévu d'un procédé ou d'une opération | Déviations, causes, conséquences, mesures existantes et actions | Procédés décrits par paramètres, séquences ou consignes |
+| LOPA | Scénario initiateur et conséquence définie | Fréquence résiduelle après couches de protection indépendantes | Vérification semi-quantitative de scénarios majeurs |
+| HACCP | Chaîne de production alimentaire | Dangers significatifs, points critiques, limites et surveillance | Sécurité sanitaire des aliments |
 
-IEC 61882 fournit le guide d'application des études HAZOP. Le système HACCP du Codex Alimentarius identifie des dangers spécifiques et des mesures de maîtrise afin d'assurer la sécurité des aliments.[^27]
+**MOSAR et MADS.** MADS représente un danger comme l'interaction entre une source, un flux dangereux et une cible. MOSAR utilise ce type de représentation dans une démarche organisée. Son premier module décompose le système, identifie les sources de danger et construit des scénarios. L'équipe évalue ensuite les risques, négocie des objectifs de sécurité et définit des moyens de prévention et de protection. Un second module peut approfondir la sûreté de fonctionnement. La méthode convient aux systèmes complexes, mais le découpage et les scénarios deviennent lourds si le périmètre reste vague.[^27]
+
+**HAZOP.** L'équipe choisit un nœud d'étude, précise son intention de fonctionnement, puis combine un paramètre avec un mot-guide. « Débit » et « aucun » donnent par exemple « aucun débit ». Pour chaque déviation crédible, l'équipe consigne les causes, les conséquences, les moyens de détection, les protections existantes et les actions. IEC 61882 structure l'étude en définition, préparation, séances d'examen, documentation et suivi. HAZOP fonctionne bien lorsque le système peut être décrit par des paramètres ou des étapes. Il couvre moins naturellement une menace stratégique diffuse.[^27]
+
+**LOPA.** L'analyse part d'un événement initiateur et d'une conséquence. Elle retient seulement les couches qui préviennent le scénario ou en atténuent la conséquence, qui sont indépendantes de l'initiateur et des autres couches, et dont la performance peut être vérifiée. L'équipe combine la fréquence de l'initiateur avec les probabilités de défaillance à la demande des couches pour estimer une fréquence résiduelle. LOPA sert à vérifier si les barrières suffisent au regard d'un critère de tolérance. Elle devient trompeuse si deux couches partagent une alimentation, un capteur, un logiciel ou une équipe.[^27]
+
+**HACCP.** La démarche décrit le produit et son usage, construit puis vérifie le diagramme du procédé, analyse les dangers biologiques, chimiques et physiques, et détermine les points critiques. Pour chaque point critique, l'équipe fixe une limite, une surveillance, des corrections, une vérification et des enregistrements. HACCP traite la sécurité des aliments. Ses principes peuvent inspirer le contrôle d'un processus, mais leur transposition ne transforme pas un autre domaine en application HACCP.[^27]
+
+Ces méthodes ne sont pas interchangeables. Une AMDEC part d'une fonction et demande comment elle peut défaillir. HAZOP part d'une intention de fonctionnement et cherche les déviations. MOSAR construit des scénarios à l'échelle d'un système. LOPA teste la suffisance de barrières indépendantes pour un scénario déjà défini. HACCP organise la maîtrise des dangers dans une chaîne alimentaire.
 
 ## 7. Mettre à jour et simuler
 
@@ -422,7 +426,7 @@ Pour un événement, la probabilité et l'impact peuvent varier selon :
 
 Les diapositives 46 à 48 proposent la simulation numérique pour étudier les combinaisons et dynamiques.[^29] Une simulation peut représenter des flux de personnes, la circulation, une chaîne logistique, un planning ou une distribution de coûts.
 
-Sur la diapositive 46, les captures de FlexSim montrent des processus et des espaces de production. La diapositive 47 représente la distribution d'un résultat après `N` exécutions, avec un minimum, une valeur la plus probable, un maximum et une dispersion notée `σ`. Le support ne donne ni `N` ni les paramètres des modèles. Il faut donc lire ces figures comme une démonstration de méthode, sans leur attribuer un résultat chiffré.[^29]
+Sur la diapositive 46, les captures de FlexSim montrent des processus et des espaces de production. La diapositive 47 représente la distribution d'un résultat après $N$ exécutions, avec un minimum, une valeur la plus probable, un maximum et une dispersion notée $\sigma$. Le support ne donne ni $N$ ni les paramètres des modèles. Il faut donc lire ces figures comme une démonstration de méthode, sans leur attribuer un résultat chiffré.[^29]
 
 La diapositive 48 montre une autre piste, associée à l'IA et aux expériences croisées, pour identifier, quantifier et combiner les risques. Elle mentionne un projet de recherche de la chaire SCF–ENPC avec Mohamed Saâd El Harrab et Ph. Wieser. La capture d'un logiciel et les courbes n'établissent pas, à elles seules, la performance d'une méthode.[^29]
 
@@ -441,23 +445,21 @@ L'animation visuelle d'une simulation ne prouve pas sa validité. Un modèle peu
 
 Les diapositives 49 à 52 présentent un choix d'offre commerciale sous incertitude. Chaque option conduit à des résultats possibles auxquels sont associées des probabilités et des gains.[^30]
 
-Le contrat porte sur `100 000` articles à un coût unitaire de `1,50 €`. Les prix candidats sont `2,90 €`, `2,50 €` et `2,10 €`. Le gain en cas de vente est donc, dans cet ordre, `140 000 €`, `100 000 €` et `60 000 €`. Le support suppose un gain nul lorsque l'offre est perdue. Il donne des probabilités de gagner de `10 %`, `50 %` et `90 %`.[^30]
+Le contrat porte sur $100\,000$ articles à un coût unitaire de $1{,}50\ \text{€}$. Les prix candidats sont $2{,}90\ \text{€}$, $2{,}50\ \text{€}$ et $2{,}10\ \text{€}$. Le gain en cas de vente est donc, dans cet ordre, $140\,000\ \text{€}$, $100\,000\ \text{€}$ et $60\,000\ \text{€}$. Le support suppose un gain nul lorsque l'offre est perdue. Il donne des probabilités de gagner de $10\ \%$, $50\ \%$ et $90\ \%$.[^30]
 
-La valeur espérée d'une option `j` s'écrit :
+La valeur espérée d'une option $j$ s'écrit :
 
-\[
-VE_j = \sum_i p_{ij} \times G_{ij}
-\]
+$$VE_j = \sum_i p_{ij} \times G_{ij}$$
 
-où `p` désigne la probabilité du résultat et `G` son gain ou sa perte.
+où $p$ désigne la probabilité du résultat et $G$ son gain ou sa perte.
 
 | Prix offert | Marge unitaire si gagné | Gain si gagné | Probabilité de gagner | Valeur espérée |
 |---:|---:|---:|---:|---:|
-| `2,90 €` | `1,40 €` | `140 000 €` | `10 %` | `14 000 €` |
-| `2,50 €` | `1,00 €` | `100 000 €` | `50 %` | `50 000 €` |
-| `2,10 €` | `0,60 €` | `60 000 €` | `90 %` | `54 000 €` |
+| $2{,}90\ \text{€}$ | $1{,}40\ \text{€}$ | $140\,000\ \text{€}$ | $10\ \%$ | $14\,000\ \text{€}$ |
+| $2{,}50\ \text{€}$ | $1{,}00\ \text{€}$ | $100\,000\ \text{€}$ | $50\ \%$ | $50\,000\ \text{€}$ |
+| $2{,}10\ \text{€}$ | $0{,}60\ \text{€}$ | $60\,000\ \text{€}$ | $90\ \%$ | $54\,000\ \text{€}$ |
 
-La dernière ligne se calcule par `0,90 × 60 000 + 0,10 × 0 = 54 000 €`. Sous les hypothèses du support, l'offre à `2,10 €` maximise la valeur espérée. La diapositive 51 représente une somme de termes associés à différentes options ; pour choisir, il faut calculer une espérance **à l'intérieur de chaque option**, puis comparer les trois résultats comme le fait la diapositive 52.[^30]
+La dernière ligne se calcule par $0{,}90 \times 60\,000 + 0{,}10 \times 0 = 54\,000\ \text{€}$. Sous les hypothèses du support, l'offre à $2{,}10\ \text{€}$ maximise la valeur espérée. La diapositive 51 représente une somme de termes associés à différentes options ; pour choisir, il faut calculer une espérance **à l'intérieur de chaque option**, puis comparer les trois résultats comme le fait la diapositive 52.[^30]
 
 ```mermaid
 flowchart LR
@@ -471,7 +473,7 @@ flowchart LR
     E --> I[Gain ou perte]
 ```
 
-**Lecture critique.** La valeur espérée convient à un décideur neutre au risque lorsque les probabilités et résultats monétaires sont suffisamment fiables. Dans cet exemple, la perte d'une offre vaut `0 €` par hypothèse. Le temps de préparation de l'offre, une éventuelle pénalité ou une capacité de production limitée changeraient les gains. La valeur espérée ne remplace pas l'analyse de ces contraintes.
+**Lecture critique.** La valeur espérée convient à un décideur neutre au risque lorsque les probabilités et résultats monétaires sont suffisamment fiables. Dans cet exemple, la perte d'une offre vaut $0\ \text{€}$ par hypothèse. Le temps de préparation de l'offre, une éventuelle pénalité ou une capacité de production limitée changeraient les gains. La valeur espérée ne remplace pas l'analyse de ces contraintes.
 
 ## 9. Maîtriser les risques
 
@@ -503,6 +505,30 @@ Le support distingue la prévention, qui agit surtout sur la probabilité, et la
 
 Les diapositives 54 à 58 relient la complication à la génération de risques et présentent Lean, 5S, Six Sigma, DMAIC, cartographie des processus et mind mapping.[^32]
 
+#### Complexité, complication et risque
+
+Le support oppose implicitement deux problèmes. La **complexité** vient des interactions, des boucles de retour, des acteurs nombreux et de l'incertitude ; elle ne peut pas toujours être supprimée. La **complication** vient plutôt d'étapes, d'interfaces ou de règles qui s'accumulent sans apporter de valeur suffisante. Simplifier une procédure peut réduire les erreurs de transmission. Cela ne supprime pas les interdépendances réelles d'un grand projet.
+
+Une simplification doit donc conserver les fonctions de sécurité. Retirer une approbation redondante et inutile peut réduire les délais. Retirer deux validations indépendantes parce qu'elles paraissent similaires peut supprimer une barrière contre l'erreur. L'équipe doit demander, pour chaque étape : quelle valeur produit-elle, quel risque maîtrise-t-elle et que se passe-t-il si elle disparaît ?
+
+#### Lean et Value Stream Mapping
+
+Le Lean cherche notamment à rendre le flux visible, à distinguer la valeur du gaspillage et à améliorer le système complet plutôt qu'une tâche isolée. Une **Value Stream Map** représente les flux de matière et d'information nécessaires pour produire un service ou un produit. La démarche construit d'abord une carte de l'état actuel, puis une carte de l'état futur et un plan de transformation.[^34]
+
+Pour analyser les risques, la carte doit au minimum indiquer les étapes, les attentes, les stocks ou files, les décisions, les reprises, les canaux d'information et les responsables. Elle aide à repérer les transferts sans propriétaire, les délais qui masquent un incident et les points où une information erronée se propage. Elle ne prouve pas que l'état futur est sûr : les barrières critiques doivent être testées séparément.
+
+Le Lean peut retirer des étapes inutiles et clarifier un processus. Une réduction excessive des réserves ou redondances peut cependant diminuer la résilience. L'objectif n'est pas de supprimer toute marge, mais de distinguer le gaspillage d'une capacité de sécurité utile.
+
+#### 5S
+
+Les cinq pratiques sont généralement traduites par **trier**, **ranger**, **nettoyer**, **standardiser** et **maintenir**. Elles rendent les anomalies plus visibles : un outil absent, un câble mal raccordé, une zone encombrée ou une version de document incorrecte se repèrent plus vite dans un environnement standardisé. Certaines variantes ajoutent un sixième S pour la sécurité.[^34]
+
+Les 5S ne sont pas un nettoyage ponctuel. Il faut définir une situation attendue, attribuer la responsabilité du maintien et vérifier régulièrement les écarts. Ils réduisent les erreurs et pertes de temps ordinaires, mais ne remplacent ni l'analyse des scénarios majeurs ni les barrières techniques.
+
+#### Six Sigma et DMAIC
+
+Six Sigma met l'accent sur la réduction de la variation et la maîtrise d'un processus par les données. Lean et Six Sigma sont souvent combinés : le premier examine surtout le flux et les activités sans valeur, le second la variabilité et la capacité du processus.[^34]
+
 ASQ définit DMAIC comme une démarche structurée destinée à améliorer un processus existant qui ne satisfait pas les performances attendues. Les cinq phases sont définir, mesurer, analyser, améliorer et contrôler.[^33]
 
 | Phase | Question |
@@ -513,9 +539,13 @@ ASQ définit DMAIC comme une démarche structurée destinée à améliorer un pr
 | Améliorer | Quelle modification traite les causes ? |
 | Contrôler | Comment vérifier que l'amélioration dure ? |
 
-Les 5S visent un environnement ordonné, propre, sûr et standardisé. Ils peuvent réduire les erreurs et les pertes de temps, mais ils ne remplacent pas l'analyse des risques majeurs.[^34]
+Une application rigoureuse conserve une chaîne de preuve. La phase *Définir* fixe le problème, le périmètre, les utilisateurs et l'indicateur. *Mesurer* établit la performance initiale et la qualité des données. *Analyser* teste les causes au lieu de retenir la première explication. *Améliorer* compare et expérimente des solutions. *Contrôler* fixe les seuils, responsables et réactions qui empêchent le retour à l'ancien fonctionnement.
 
-Le Lean peut retirer des étapes inutiles et clarifier un processus. Une réduction excessive des réserves ou redondances peut cependant diminuer la résilience. L'objectif n'est pas de supprimer toute marge, mais de distinguer le gaspillage d'une capacité de sécurité utile.
+#### Cartographie de processus et mind mapping
+
+Une **cartographie de processus** montre l'ordre des activités, les décisions, les entrées, les sorties et les responsabilités. Elle convient à l'analyse d'un flux de travail. Une **mind map** part d'un sujet central et organise des branches d'idées ; elle convient à l'exploration initiale d'un problème, mais ne représente pas automatiquement l'ordre temporel, les dépendances ou les contrôles.
+
+La diapositive 58 avertit contre la dérive du détail. Une carte trop dense peut devenir inutilisable. Le niveau de décomposition doit rester lié à une question de décision : localiser une interface critique, attribuer une responsabilité, réduire un délai ou vérifier une barrière. Si aucun lecteur ne peut expliquer ce que la carte permet de décider, il faut la simplifier ou la scinder.
 
 ### 9.4 Modèle du gruyère suisse
 
@@ -595,6 +625,14 @@ Une information tardive ou incohérente peut devenir un risque en soi. La maîtr
 
 La diapositive 67 associe l'évaluation économique des variantes à une approche probabiliste et à la valeur actuelle nette.[^43] Plutôt que d'utiliser un seul coût prévisionnel, une simulation peut représenter des distributions de coûts, de recettes, de délais ou de taux.
 
+Pour une série de flux nets $F_t$, un investissement initial $I_0$ et un taux d'actualisation $r$, la valeur actuelle nette s'écrit :
+
+$$VAN = -I_0 + \sum_{t=1}^{T}\frac{F_t}{(1+r)^t}$$
+
+Une VAN positive signifie que la valeur actualisée des flux retenus dépasse l'investissement initial selon les hypothèses du modèle. Elle ne prouve pas que le projet est sans risque. Le résultat dépend du périmètre des coûts et bénéfices, des dates, du taux, des valeurs terminales et des scénarios.
+
+Une analyse probabiliste attribue des distributions aux hypothèses incertaines, conserve leurs corrélations lorsque cela est justifié, recalcule la VAN de nombreuses fois et observe sa distribution. La question de décision peut alors devenir : quelle est la probabilité que la VAN soit négative, quel quantile défavorable faut-il financer et quelles hypothèses expliquent le plus la dispersion ?
+
 Le résultat doit montrer :
 
 - la valeur moyenne ;
@@ -609,11 +647,18 @@ La diapositive 68 compare une planification déterministe et une planification p
 
 ![Diapositive 68 : comparaison d'une planification déterministe et probabiliste](assets/02-risques/slide-68.png)
 
-\[
-t_e = \frac{t_o + 4t_m + t_p}{6}
-\]
+$$t_e = \frac{t_o + 4t_m + t_p}{6}$$
 
-Cette formule résume une distribution supposée. Elle ne capture pas automatiquement les dépendances entre tâches, la disponibilité des ressources ou les changements de chemin critique. Une simulation Monte Carlo de planning peut mieux représenter ces interactions si les données le permettent.
+La valeur $t_o$ est la durée optimiste, $t_m$ la durée la plus probable et $t_p$ la durée pessimiste. Cette moyenne pondérée résume une distribution supposée ; elle n'est pas une durée garantie. Une date calculée à partir des seules moyennes peut masquer une forte asymétrie et la possibilité qu'une autre chaîne de tâches devienne critique.
+
+Une analyse probabiliste de planning suit quatre étapes.
+
+1. Construire un réseau cohérent de tâches, de jalons et de dépendances.
+2. Affecter aux durées incertaines des distributions justifiées et modéliser les corrélations importantes.
+3. Simuler de nombreux plannings en recalculant le chemin critique à chaque itération.
+4. Lire une distribution de dates, la probabilité de respecter un jalon et la sensibilité du résultat aux tâches.
+
+PMI cite PERT, les scénarios *what-if* et la simulation Monte Carlo parmi les techniques quantitatives d'analyse du risque de planning.[^46] La simulation peut représenter les dépendances et les changements de chemin critique si le modèle les contient. Elle ne corrige pas un réseau incomplet, des durées arbitraires ou l'oubli des contraintes de ressources.
 
 ## 11. Synthèse opérationnelle
 
@@ -636,7 +681,7 @@ Une analyse de risques utile produit des décisions traçables. Elle ne se termi
 ## Questions d'entraînement
 
 1. Quelle différence existe entre un danger, un événement redouté et un risque ?
-2. Dans quel cas le produit `p × g` peut-il être interprété comme une valeur attendue ?
+2. Dans quel cas le produit $p \times g$ peut-il être interprété comme une valeur attendue ?
 3. Pourquoi deux risques ayant le même score peuvent-ils exiger des traitements différents ?
 4. Quelle différence existe entre un risque interne et un risque induit par le projet ?
 5. Pourquoi la pyramide de Bird ne doit-elle pas être appliquée comme une loi universelle ?
@@ -709,7 +754,7 @@ Une analyse de risques utile produit des décisions traçables. Elle ne se termi
 [^16]: Ibid., diapositives 23 à 25.
 [^17]: Ibid., diapositives 26 à 29.
 [^18]: Ibid., diapositive 30.
-[^19]: RAND Corporation, *The Delphi Method*, présentation méthodologique dans RAND RR-2127 et CF-170, https://www.rand.org/content/dam/rand/pubs/research_reports/RR2100/RR2127/RAND_RR2127.pdf et https://www.rand.org/content/dam/rand/pubs/conf_proceedings/2005/CF170.pdf, consultés le 29 septembre 2026.
+[^19]: James Dewar et John Friel, « Expert Opinion on Key Energy Issues in 2020 », dans RAND Corporation, *E-Vision 2000*, CF-170, p. 52-56, description des réponses anonymes, des itérations, du retour contrôlé et de l'agrégation statistique, https://www.rand.org/content/dam/rand/pubs/conf_proceedings/2005/CF170.pdf, consulté le 30 septembre 2026.
 [^20]: Philippe Wieser, *Analyse du risque*, diapositives 31 à 34.
 [^21]: Ibid., diapositives 35 et 36.
 [^22]: Ibid., diapositives 37 et 38.
@@ -717,14 +762,14 @@ Une analyse de risques utile produit des décisions traçables. Elle ne se termi
 [^24]: Ibid., diapositives 42 à 44.
 [^25]: IEC, *IEC 60812:2018, Failure modes and effects analysis (FMEA and FMECA)*, 2018, https://webstore.iec.ch/en/publication/26359, consulté le 29 septembre 2026.
 [^26]: Philippe Wieser, *Analyse du risque*, diapositive 44.
-[^27]: IEC, *IEC 61882, Hazard and operability studies (HAZOP studies) — Application guide* ; Codex Alimentarius, *General Principles of Food Hygiene, HACCP System and Guidelines for its Application*, https://www.fao.org/4/w6419e/w6419e03.htm, consulté le 29 septembre 2026.
+[^27]: IEC, *IEC 61882:2016, Hazard and operability studies (HAZOP studies) — Application guide*, https://webstore.iec.ch/en/publication/24321 ; P. Périlhon et O. Grandamas, « MOSAR : une méthode pour l'analyse de risques », *Lettre de la sûreté de fonctionnement*, nos 48-49, 1997, notice INRS https://portaildocumentaire.inrs.fr/Default/doc/SYRACUSE/116496/mosar-une-methode-pour-l-analyse-de-risques-48-49?_lg=fr-FR ; INERIS, *Évaluation des dispositifs de prévention et de protection utilisés pour réduire les risques d'accidents majeurs*, rapport Oméga 7, section 5.2 « LOPA », https://prestations.ineris.fr/sites/default/files/PrestaWeb/Pages-Solution/Documents%20Associ%C3%A9s/Omega7.pdf ; Codex Alimentarius, *General Principles of Food Hygiene, HACCP System and Guidelines for its Application*, https://www.fao.org/4/w6419e/w6419e03.htm, consultés le 30 septembre 2026.
 [^28]: Philippe Wieser, *Analyse du risque*, diapositive 45.
 [^29]: Ibid., diapositives 46 à 48.
 [^30]: Ibid., diapositives 49 à 52.
 [^31]: Ibid., diapositive 53.
 [^32]: Ibid., diapositives 54 à 58.
 [^33]: American Society for Quality, *DMAIC*, https://asq.org/quality-resources/dmaic, consulté le 29 septembre 2026.
-[^34]: American Society for Quality, *Six Sigma Tools and Techniques*, https://asq.org/quality-resources/sixsigma/tools, consulté le 29 septembre 2026.
+[^34]: American Society for Quality, *Six Sigma Tools and Techniques*, https://asq.org/quality-resources/sixsigma/tools ; Lean Enterprise Institute, *5S*, https://www.lean.org/lexicon-terms/five-s/ et *Value Stream Mapping*, https://www.lean.org/lexicon-terms/value-stream-mapping/, consultés le 30 septembre 2026.
 [^35]: Philippe Wieser, *Analyse du risque*, diapositive 59.
 [^36]: James Reason, « Human error: models and management », *BMJ*, vol. 320, 2000, p. 768-770, DOI 10.1136/bmj.320.7237.768, https://pubmed.ncbi.nlm.nih.gov/10720363/, consulté le 29 septembre 2026.
 [^37]: Philippe Wieser, *Analyse du risque*, diapositive 60.
@@ -736,3 +781,4 @@ Une analyse de risques utile produit des décisions traçables. Elle ne se termi
 [^43]: Ibid., diapositive 67.
 [^44]: Ibid., diapositive 68.
 [^45]: Ibid., diapositive 69.
+[^46]: Project Management Institute, *Scheduling Professional Examination Content Outline*, tâche 4.10, analyse quantitative du risque de planning par scénarios, Monte Carlo et PERT, https://www.pmi.org/military/sitecore/content/home/certifications/types/-/media/pmi/documents/public/pdf/certifications/scheduling-professional-exam-outline.pdf, consulté le 30 septembre 2026.

@@ -14,6 +14,20 @@ Les codes `EVENT-*` ci-dessous sont stables. Les codes `STAKE-*` renvoient au [r
 
 ## Chronologie vérifiée
 
+Le fil directeur ci-dessous distingue la construction du concept, les essais et la configuration effectivement décrite après l'événement. Il ne remplace pas le tableau détaillé : les dates intermédiaires et les niveaux de preuve restent dans les lignes `EVENT-*`.
+
+```mermaid
+flowchart LR
+    A[2017–2018<br/>Ville hôte et COJOP] --> B[2019–2021<br/>Concept sur la Seine]
+    B --> C[2022<br/>Direction artistique]
+    C --> D[2023<br/>Premier test autorisé]
+    D --> E[Printemps–été 2024<br/>Jauges, accès, essais]
+    E --> F[26 juillet 2024<br/>Cérémonie réalisée]
+    F --> G[Bilans postérieurs<br/>Résultats et limites]
+```
+
+Le passage d'un jalon au suivant n'est pas une preuve d'approbation complète : il indique seulement qu'une annonce, une autorisation, une préparation ou un résultat est documenté à cette date.
+
 | Événement | Date | Fait, décision ou état documenté | Acteurs liés et portée de la preuve |
 |---|---|---|---|
 | <a id="EVENT-001"></a>EVENT-001 | 13 septembre 2017 ; 2018 | Paris devient ville hôte en 2017 ; le COJOP est créé en 2018 avec la mission générale d'organiser les Jeux. Ces jalons ne prouvent pas que le concept fluvial était déjà décidé.[^4] | [STAKE-001](01-gouvernance-parties-prenantes.md#STAKE-001), [STAKE-002](01-gouvernance-parties-prenantes.md#STAKE-002), [STAKE-007](01-gouvernance-parties-prenantes.md#STAKE-007). Direct. |

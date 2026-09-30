@@ -51,7 +51,7 @@ Le dessin ci-dessus est une reformulation pédagogique. Les rôles réels dépen
 
 ### Les compétences et les formes d'organisation
 
-**Contenu du cours.** La diapositive 8 présente une figure IPMA avec trois ensembles de compétences du chef de projet : comportementales, techniques et contextuelles. Les exemples visibles autour de la figure vont du travail d'équipe, de l'éthique et de la psychologie jusqu'à la finance, au droit, au management des risques et à la gestion du temps, de la qualité et du changement. La diapositive 9 place le comité de pilotage, la direction ou le chef de projet et les utilisateurs dans un schéma d'échanges. Un client y apparaît pour le cas du développement informatique. La diapositive 10 oppose graphiquement la structure hiérarchique de l'organisation et une structure transversale par projet; elle y superpose deux projets, `x` et `y`.[^4]
+**Contenu du cours.** La diapositive 8 présente une figure IPMA avec trois ensembles de compétences du chef de projet : comportementales, techniques et contextuelles. Les exemples visibles autour de la figure vont du travail d'équipe, de l'éthique et de la psychologie jusqu'à la finance, au droit, au management des risques et à la gestion du temps, de la qualité et du changement. La diapositive 9 place le comité de pilotage, la direction ou le chef de projet et les utilisateurs dans un schéma d'échanges. Un client y apparaît pour le cas du développement informatique. La diapositive 10 oppose graphiquement la structure hiérarchique de l'organisation et une structure transversale par projet; elle y superpose deux projets, $x$ et $y$.[^4]
 
 **Complément pédagogique sourcé.** Le référentiel IPMA ICB4 utilise aujourd'hui les domaines *People*, *Practice* et *Perspective*. Cette parenté éclaire la figure de la diapositive 8, sans autoriser à remplacer mot pour mot ses trois libellés historiques par ceux du référentiel actuel. La compétence du chef de projet consiste aussi à savoir quand faire intervenir un expert, pas à maîtriser seul chaque discipline représentée.[^13]
 
@@ -110,7 +110,7 @@ Voici une mise en pratique inventée, destinée à comprendre les diapositives 1
 | Ouvrir une salle | 5 | 2 | 2 | 3,5 |
 | Réservation numérique | 2 | 4 | 3 | 2,8 |
 
-Le calcul pour « Réaménager » est `3 × 0,50 + 5 × 0,30 + 5 × 0,20 = 4,0`. Ce score ne décide pas seul. L'équipe doit vérifier que les notes ont une base observable, que l'aménagement respecte les règles de sécurité et que les résultats ne basculent pas si la pondération de la capacité change. Une analyse de sensibilité et un examen des risques précèdent donc une décision solide. L'exemple illustre l'analyse multicritère citée par le support; les poids et les valeurs ne viennent pas du cours.[^5]
+Le calcul pour « Réaménager » est $3 \times 0{,}50 + 5 \times 0{,}30 + 5 \times 0{,}20 = 4{,}0$. Ce score ne décide pas seul. L'équipe doit vérifier que les notes ont une base observable, que l'aménagement respecte les règles de sécurité et que les résultats ne basculent pas si la pondération de la capacité change. Une analyse de sensibilité et un examen des risques précèdent donc une décision solide. L'exemple illustre l'analyse multicritère citée par le support; les poids et les valeurs ne viennent pas du cours.[^5]
 
 ## 4. Le diagnostic relie les besoins aux causes
 
@@ -267,7 +267,7 @@ Le tableau vérifie la présence de chaque page du support dans la fiche. « Vis
 | 7 | Roue Plan–Do–Check–Act et démarche d'amélioration. | 2. Le cycle PDCA. |
 | 8 | Figure IPMA des compétences comportementales, techniques et contextuelles. | 2. Les compétences. |
 | 9 | Comité de pilotage, direction, experts et utilisateurs; mention RAD. | 2. Organisation et 5. Méthodes. |
-| 10 | Superposition de la hiérarchie et des structures des projets `x` et `y`. | 2. Les formes d'organisation. |
+| 10 | Superposition de la hiérarchie et des structures des projets $x$ et $y$. | 2. Les formes d'organisation. |
 | 11 | Trois montages schématiques de réalisation en génie civil. | 2. Les formes d'organisation. |
 | 12 | Courbes des coûts cumulés et de la marge de manœuvre. | 3. Coûts cumulés et marge de manœuvre. |
 | 13 | Critères, approches et analyse multicritère avant le choix. | 3. Coûts et exemple de choix. |
@@ -307,7 +307,7 @@ Le tableau vérifie la présence de chaque page du support dans la fiche. « Vis
 [^9]: Philippe Wieser, *Management de projet. Introduction*, fichier `1_MGT_427_intro_26.pdf`, diapositives 28 à 35.
 [^10]: Project Management Institute, « What Is a Project? », page institutionnelle sans date de publication affichée, <https://www.pmi.org/about/what-is-a-project>, consultée le 29 septembre 2026.
 [^11]: Organisation internationale de normalisation, « ISO 21502:2020. Project, programme and portfolio management: Guidance on project management », fiche du comité ISO/TC 258, 2020, <https://committee.iso.org/sites/tc258/home/projects/published/iso-21502.html>, consultée le 29 septembre 2026.
-[^12]: Administration fédérale suisse, *HERMES, manuel de référence. Gestion de projet*, édition 2022, chapitre 1 « Phases », <https://www.hermes.admin.ch/_Resources/Persistent/ca0d3a4ea853a62cb8a97804962cbdc7da16d7ce/Referenzhandbuch%20Projektmanagement%20HERMES%202022%20FR%20230428%20-%20WEB.pdf>, consulté le 29 septembre 2026. Voir aussi « Prologue », HERMES Online, sans date affichée, <https://www.hermes.admin.ch/fr/gestion-du-projet/methodenueberblick/prologue.html>, consulté le 29 septembre 2026.
+[^12]: Administration fédérale suisse, *HERMES, manuel de référence. Gestion de projet*, édition 2022, chapitre 1 « Phases », <https://www.hermes.admin.ch/_Resources/Persistent/ca0d3a4ea853a62cb8a97804962cbdc7da16d7ce/Referenzhandbuch%20Projektmanagement%20HERMES%202022%20FR%20230428%20-%20WEB.pdf>, consulté le 30 septembre 2026.
 [^13]: International Project Management Association, « IPMA Standards Development Programme », rubrique « IPMA Individual Competence Baseline », page sans date affichée, <https://ipma.world/ipma-standards-development-programme/>, consultée le 29 septembre 2026.
 [^14]: American Society for Quality, « What is the Plan-Do-Check-Act (PDCA) Cycle? », page sans date affichée, <https://asq.org/quality-resources/pdca-cycle>, consultée le 29 septembre 2026.
 [^15]: ISO/TC 176/SC 2, *Guidance on the Concept and Use of the Process Approach for Management Systems*, document N 544R3, 2008, section 2, <https://www.iso.org/iso/04_concept_and_use_of_the_process_approach_for_management_systems.pdf>, consulté le 29 septembre 2026.

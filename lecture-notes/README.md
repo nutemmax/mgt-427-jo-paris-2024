@@ -4,9 +4,11 @@ Ce dossier rassemble une fiche détaillée par support logique du cours. Les not
 
 | Fiche | Support principal | État |
 |---|---|---|
-| [Organisation du cours](00-organisation-du-cours.md) | `0_MGT_427_organ2_26.pdf` et comparaison avec `0_MGT_427_organ_26.pdf` | En cours |
-| [Introduction au management de projet](01-introduction-au-management-de-projet.md) | `1_MGT_427_intro_26.pdf` | En cours |
-| [Analyse des risques](02-analyse-des-risques.md) | `2_MGT_427_risks_26.pdf` | À produire |
+| [Organisation du cours](00-organisation-du-cours.md) | `0_MGT_427_organ2_26.pdf` et comparaison avec `0_MGT_427_organ_26.pdf` | Auditée |
+| [Introduction au management de projet](01-introduction-au-management-de-projet.md) | `1_MGT_427_intro_26.pdf` | Auditée |
+| [Analyse des risques](02-analyse-des-risques.md) | `2_MGT_427_risks_26.pdf` | Auditée |
+
+La [cartographie des supports](source-map.md) recense chaque diapositive et les concepts qu'elle contient.
 
 ## Convention de lecture
 

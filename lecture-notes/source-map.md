@@ -144,6 +144,8 @@ Le support progresse de la définition et de la combinaison des risques vers leu
 
 Le contrôle porte sur les numéros de la colonne « Diapo » dans les deux tableaux. L’introduction contient 35 lignes, de 1 à 35, sans numéro manquant ni doublon. L’analyse des risques contient 69 lignes, de 1 à 69, sans numéro manquant ni doublon. Total cartographié pour ces deux supports: 104 diapositives. Les deux versions du support d’organisation ont aussi été comparées sur leurs 7 pages chacune.
 
+L'audit du 30 septembre 2026 a relié chaque ligne à la table de couverture de la fiche correspondante. Les 118 pages des quatre PDF ont une entrée dans cette cartographie et une destination dans les notes. Les colonnes « À approfondir » décrivent les points qui demandaient une explication au-delà du texte extrait. Les fiches auditées apportent ces explications ou indiquent pourquoi le support ne permet pas une conclusion plus précise.
+
 ## Références aux supports
 
 [1] Philippe Wieser, `0_MGT_427_organ_26.pdf`, «Management de projet: organisation du cours», export du 7 septembre 2026, 7 diapositives.
