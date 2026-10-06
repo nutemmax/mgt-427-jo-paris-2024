@@ -1,0 +1,17 @@
+{
+  "title": "Paris 2024, un projet à interfaces",
+  "learning_objective": "Comprendre comment un spectacle fluvial devient un système de projet, de risques et de décisions.",
+  "audience": "Étudiants en management de projet et analyse des risques",
+  "mode": "hybrid",
+  "complexity": "standard",
+  "data": {
+    "kind": "documented-project-analysis",
+    "source": "../../analysis/README.md"
+  },
+  "assets": [],
+  "assumptions": [
+    "Les scores de risques sont pédagogiques et ne sont pas les scores internes de Paris 2024.",
+    "Le thème graphique reste provisoire.",
+    "Les faits et les limites proviennent des notes de contexte et du registre des sources."
+  ]
+}
