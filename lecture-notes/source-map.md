@@ -2,7 +2,7 @@
 
 ## Périmètre et méthode
 
-Cette cartographie décrit les trois supports logiques présents dans les quatre PDF fournis. Les deux fichiers d’organisation sont comparés page par page. Les tableaux d’introduction et d’analyse des risques recensent chaque diapositive des deux supports principaux.
+La première partie documente le lot initial de quatre PDF. Les deux versions historiques de l'organisation y sont comparées page par page. Les tableaux d’introduction et d’analyse des risques recensent chaque diapositive de ces deux supports. Les trois supports ajoutés en novembre 2026 sont référencés dans la dernière section. Leurs tableaux de couverture figurent dans les fiches correspondantes.
 
 Les PDF ont été lus par extraction de texte et par inspection des pages rendues. La colonne « Visuel » décrit le type de contenu graphique. La mention **À voir** signale les pages où le texte extrait ne suffit pas à comprendre le contenu, à lire les libellés, ou à interpréter un diagramme ou une image. Les approfondissements proposés indiquent les points à développer dans les fiches de cours. Ils ne complètent pas les supports par des faits externes.
 
@@ -155,3 +155,11 @@ L'audit du 30 septembre 2026 a relié chaque ligne à la table de couverture de 
 [3] Philippe Wieser, `1_MGT_427_intro_26.pdf`, «Management de projet: introduction», 2024, 35 diapositives.
 
 [4] Philippe Wieser, `2_MGT_427_risks_26.pdf`, «Management de projet: analyse du risque», 2026, 69 diapositives.
+
+## Supports ajoutés en novembre 2026
+
+| Support | Pages | Repères principaux | Cartographie détaillée |
+|---|---:|---|---|
+| [Intervention Ponera](../slides/3_MGT_427_guest_lecture_PMRA.pdf) | 64 | Emballages et Internet physique (3–21), validation et premier financement (22–33), essais et qualification (34–43), vente et circularité (44–55), industrialisation et gouvernance (56–64). | [Fiche 03](03-intervention-gestion-de-projet.md) |
+| [Évaluation économique](../slides/4_MGT_427_eco_26.pdf) | 24 | Échéancier et critères (2–7), sensibilité et simulation (8–13), logiciel MODEC (14–20), parking urbain (21–24). | [Fiche 04](04-evaluation-economique.md) |
+| [Planification et ordonnancement](../slides/5_MGT_427_planif_26.pdf) | 36 | Réseaux et Gantt (2–14), charges et calendriers (15–21), suivi et logiciel (22–29), décomposition et dépendances (30–33), risque et consolidation (34–36). | [Fiche 05](05-planification-de-projet.md) |
