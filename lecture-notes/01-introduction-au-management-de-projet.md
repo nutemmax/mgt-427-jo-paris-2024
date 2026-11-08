@@ -8,6 +8,16 @@ Cette fiche suit les 35 diapositives de `1_MGT_427_intro_26.pdf`. Le document po
 
 **Contenu du cours.** Les trois définitions réunies à la diapositive 2 insistent sur une réalisation unique et temporaire, des tâches liées entre elles, des ressources humaines, matérielles et financières, un but et des contraintes de temps, de coût et de qualité. La définition attribuée à J.-P. Jeannin ajoute le diagnostic initial, le choix collectif des objectifs et le passage d'une situation insatisfaisante à une situation satisfaisante. La diapositive 3 résume ces idées en un « processus unique, complexe, à risques et limité dans le temps » qui répond à des objectifs mesurables.[^2]
 
+La diapositive 2 relie le mot *projet* au latin *projectum* et à l'idée de se projeter vers l'avant. Ses trois sources mettent l'accent sur des aspects distincts.[^2]
+
+| Définition citée dans le cours | Ce qu'elle apporte au diagnostic |
+|---|---|
+| Wikipédia | Un effort temporaire destiné à créer un produit ou un service unique. |
+| J.-P. Jeannin | Un processus collectif d'action. On part d'un diagnostic, on choisit des objectifs cohérents et on articule les moyens. Les résultats sont mesurables et programmés dans le temps. |
+| Tilos | Des tâches cohérentes mobilisent des ressources humaines, matérielles et financières sous contraintes de temps, de coût et de qualité. |
+
+**Lecture pédagogique.** Le signe « inférieur à » entre les mesures 0 et 1, page 3, représente une amélioration lorsque le sens de l'indicateur s'y prête. Si l'indicateur est le temps d'attente, passer de 12 à 5 minutes constitue une amélioration malgré la baisse du chiffre. Il faut donc annoncer le sens attendu pour chaque mesure.[^2]
+
 **Complément pédagogique sourcé.** Le Project Management Institute définit également le projet comme une entreprise temporaire qui crée un produit, un service ou un résultat unique. « Temporaire » qualifie l'effort organisé, pas nécessairement la durée de vie du résultat. La construction d'un pont est un projet; l'exploitation et l'entretien réguliers du pont relèvent ensuite d'activités continues. L'unicité ne signifie pas qu'aucune tâche ne ressemble à une tâche déjà réalisée. Elle signifie que le résultat, le contexte ou la combinaison de contraintes ne se répètent pas à l'identique.[^10]
 
 Le schéma « État 0 → projet → État 1 » de la diapositive 3 place les *besoins* sous la transformation et les *mesures* sous les deux états. Il invite à définir une situation de départ, un état souhaité et une façon de constater la différence. La formule « On ne gère et on améliore que ce que l'on mesure » exprime la nécessité d'un suivi. Elle ne veut pas dire que tout effet important se réduit à un chiffre. Une appréciation qualitative structurée, comme un test d'usage documenté, peut aussi constituer une preuve utile.[^2]
@@ -53,6 +63,12 @@ Le dessin ci-dessus est une reformulation pédagogique. Les rôles réels dépen
 
 **Contenu du cours.** La diapositive 8 présente une figure IPMA avec trois ensembles de compétences du chef de projet : comportementales, techniques et contextuelles. Les exemples visibles autour de la figure vont du travail d'équipe, de l'éthique et de la psychologie jusqu'à la finance, au droit, au management des risques et à la gestion du temps, de la qualité et du changement. La diapositive 9 place le comité de pilotage, la direction ou le chef de projet et les utilisateurs dans un schéma d'échanges. Un client y apparaît pour le cas du développement informatique. La diapositive 10 oppose graphiquement la structure hiérarchique de l'organisation et une structure transversale par projet; elle y superpose deux projets, $x$ et $y$.[^4]
 
+![Figure IPMA du support avec trois familles de compétences entourées de domaines spécialisés](assets/01-introduction/slide-8.png)
+
+*Diapositive 8. Au centre figurent les compétences comportementales, techniques et contextuelles. La périphérie cite l'éthique, la psychologie, les RH, l'économie, le droit, la finance, la comptabilité, les technologies de l'information et bases de données, la recherche opérationnelle, la gestion des risques et du projet, le temps, la qualité et le changement, ainsi que le travail d'équipe et les compétences relationnelles. Le dessin donne des domaines à mobiliser sans fournir une grille d'évaluation individuelle.*[^4]
+
+**Lecture du schéma d'organisation.** Page 9, les besoins remontent par le groupe des utilisateurs. Le chef de projet échange avec ce groupe et le comité de pilotage, avec l'appui d'experts. Le client dialogue avec le réseau de réalisation dans l'exemple informatique. La liste à droite associe l'agilité à une hiérarchie allégée, au pragmatisme, à l'action, à l'innovation et au dialogue. Page 10, les lignes rouges $x$ et $y$ traversent plusieurs colonnes de métiers. Si les deux projets réclament la même expertise à la même date, le conflit doit être arbitré entre les responsables concernés.[^4]
+
 **Complément pédagogique sourcé.** Le référentiel IPMA ICB4 utilise aujourd'hui les domaines *People*, *Practice* et *Perspective*. Cette parenté éclaire la figure de la diapositive 8, sans autoriser à remplacer mot pour mot ses trois libellés historiques par ceux du référentiel actuel. La compétence du chef de projet consiste aussi à savoir quand faire intervenir un expert, pas à maîtriser seul chaque discipline représentée.[^13]
 
 | Forme montrée | Où se situe la coordination ? | Avantage possible | Tension à surveiller |
@@ -77,6 +93,10 @@ La diapositive 11 illustre ces questions par trois organisations de réalisation
 
 **Lecture pédagogique.** Le schéma invite à dépenser de l'effort intellectuel avant d'engager des dépenses difficiles à récupérer. Changer la largeur d'une circulation sur un plan coûte généralement moins que modifier un bâtiment construit. Il ne faut pourtant pas lire la forme des courbes comme une loi chiffrée. Les diapositives ne donnent ni unités, ni données de calibration, ni seuil de décision. La distribution dessinée à la diapositive 14, avec « min », « p.p. », « max » et deux signes σ, indique que les résultats envisagés sont incertains; elle ne démontre pas qu'ils suivent une loi normale. « p.p. » semble indiquer la valeur la plus probable sur le dessin, mais le support ne développe pas cette abréviation.[^5]
 
+![Cycle de vie avec coûts cumulés, marge de manœuvre, critères et distribution d'incertitude](assets/01-introduction/slide-14.png)
+
+*Diapositive 14. L'axe horizontal du grand graphique est le temps. La courbe bleue représente la marge de manœuvre et les lignes rouges les trajectoires possibles de coûts cumulés. L'encart de distribution a son propre axe, celui du résultat incertain. Les deux graphiques répondent à des questions différentes. Le premier situe le moment où les choix restent modifiables. Le second indique que le résultat d'un choix peut varier. Les formes miniatures à droite rappellent que plusieurs distributions sont possibles.*[^5]
+
 La diapositive 15 insère un appel à produire plusieurs idées et variantes. Son message pratique est clair : une seule proposition rend la comparaison fragile et encourage l'attachement prématuré. Dans un projet, des variantes ne se distinguent pas seulement par le coût d'achat. On peut comparer le service rendu, le coût d'exploitation, les risques, les effets environnementaux et la faisabilité. Ces critères doivent être définis avant de noter les solutions, faute de quoi l'analyse multicritère peut devenir une justification du choix déjà préféré.[^5]
 
 ```mermaid
@@ -99,6 +119,8 @@ flowchart LR
 **Lecture pédagogique.** Les phases sont des moments de décision, pas seulement des dates. À la fin de l'étude, la décision consiste à retenir une variante et à justifier ses compromis. Avant la réalisation, il faut une organisation, un budget et une planification. Avant le transfert, il faut savoir qui accepte le livrable et qui en assure l'usage. HERMES fournit un exemple actuel d'une structure de phases qui encadre aussi bien la création classique que la création agile par une initialisation et une clôture. Son manuel précise que la clôture règle le passage vers l'organisation d'utilisation.[^6][^12]
 
 **Piège d'examen.** L'exploitation peut durer longtemps après la clôture du projet. Un défaut observé pendant l'exploitation peut révéler un besoin mal compris ou une défaillance de réalisation, mais cela ne transforme pas automatiquement toute l'exploitation en phase de projet.[^6][^10]
+
+**Complément pédagogique.** À chaque passage, associez une décision à une preuve. Le diagnostic conduit à un besoin mesuré. L'avant-projet conduit à une comparaison de variantes. Le projet détaillé fixe les livrables, responsabilités et moyens. La réalisation produit des résultats et des relevés d'écarts. La clôture s'appuie sur les preuves de conformité, la liste des réserves et les informations remises à l'exploitant. Une décision de clôture et une mesure des bénéfices en exploitation peuvent donc avoir des dates différentes.[^6][^12]
 
 ### Un exemple de choix multicritère
 
@@ -130,7 +152,13 @@ Le calcul pour « Réaménager » est $3 \times 0{,}50 + 5 \times 0{,}30 + 5 \ti
 
 **Contenu du cours.** La diapositive 20 décrit visuellement un atelier « Brown paper ». Les participants produisent d'abord des idées ou problèmes sur des notes, les regroupent par thèmes homogènes, puis choisissent de façon collaborative. Le schéma indique quatre moments numérotés, mais ne fournit ni règle de vote ni protocole statistique. Il faut donc voir cet outil comme un moyen de rendre les constats visibles et discutables, non comme une preuve automatique que le groupe a trouvé la meilleure cause.[^7]
 
+![Atelier Brown paper en quatre temps, avec notes et gommettes](assets/01-introduction/slide-20.png)
+
+*Diapositive 20. La figure passe du brainstorming par niveau hiérarchique (1) au regroupement homogène des idées (2), puis au choix collaboratif et participatif, illustré par des gommettes (3), et au choix retenu (4). Les gommettes font ressortir des préférences. Les causes ou les gains présumés doivent encore être vérifiés.*[^7]
+
 La diapositive 21 présente PESTEL comme aide-mémoire possible avant SWOT. Les lettres recouvrent les dimensions politique, économique, sociologique, technologique, écologique et légale. La même page montre un diagramme d'Ishikawa dans lequel des branches de causes possibles convergent vers un effet. La diapositive 22 répartit SWOT entre forces et faiblesses internes, opportunités et menaces externes. Le support associe les faiblesses au risque interne et les menaces au risque lié à l'environnement.[^7]
+
+**Exemple construit.** Pour la bibliothèque, PESTEL fait émerger des questions sur les priorités de l'établissement (P), le coût de l'énergie (E), les horaires des étudiants (S), la fiabilité du système d'occupation (T), le réemploi du mobilier (E) et les règles d'accessibilité (L). SWOT retient ensuite les facteurs décisifs et les classe par origine et par effet. Une réglementation relève de l'environnement même si l'équipe choisit la réponse. Dans le dessin, l'interne est observé à $T_0$ et l'externe marqué $f(T)$ pour rappeler qu'il évolue. En pratique, les capacités internes changent aussi.[^7]
 
 | Outil | Question à laquelle il aide à répondre | Sortie utile | Limite à retenir |
 |---|---|---|---|
@@ -150,7 +178,18 @@ La diapositive 21 présente PESTEL comme aide-mémoire possible avant SWOT. Les 
 
 **Contenu du cours.** La diapositive 23 classe des initiatives sur un graphique « impact » et « effort ». Ses quatre cases sont intitulées *quick wins*, *major projects*, *fill ins* et *hard slogs*. Les traductions pédagogiques seraient gains rapides, grands projets, compléments de faible priorité et travaux coûteux pour peu d'effet. Ce graphique sert au tri initial. Il n'indique pas comment mesurer l'impact ni l'effort, et un gain faible pour l'organisation pourrait être essentiel pour un groupe d'usagers particulier.[^8]
 
+| Impact et effort | Case de la figure | Exemple pédagogique |
+|---|---|---|
+| Impact haut, effort faible | Quick win, en haut à gauche | Rendre visible une salle déjà ouverte. |
+| Impact haut, effort fort | Major project, en haut à droite | Créer un nouvel espace d'étude. |
+| Impact bas, effort faible | Fill in, en bas à gauche | Améliorer une indication secondaire sur un plan. |
+| Impact bas, effort fort | Hard slog, en bas à droite | Développer une application dédiée à une question rarement posée. |
+
+Un travail indispensable à la sécurité ou à l'accessibilité passe par un critère d'admissibilité. Son traitement ne se décide pas au seul placement dans ce graphique.[^8]
+
 La diapositive 24 introduit SMART. Le support donne plusieurs sens possibles aux lettres anglaises A et R, puis une version française : spécifique, mesurable, ambitieux et atteignable, réaliste ou pertinent, et défini dans le temps. La variation des expansions interdit d'en faire une formule lexicale unique. L'intérêt pratique est de tester la formulation d'un objectif avant la mise en œuvre.[^8]
+
+Dans le bloc anglais du support, S vaut *Specific*, M *Measurable*, A peut être *Agreed*, *Achievable*, *Attainable* ou *Appropriate*, R *Realistic*, *Relevant* ou *Results-oriented*, et T *Time framed* ou *Timetabled*. Pour réviser, associez chaque lettre à une question sur le résultat, l'indicateur, la faisabilité et l'accord, la pertinence, puis l'échéance.[^8]
 
 | Formulation | Diagnostic | Reformulation pédagogique |
 |---|---|---|
@@ -180,6 +219,22 @@ La diapositive 9 associe « méthode AGILE » et Rapid Application Development, 
 
 **Contenu du cours.** La diapositive 27 reproduit un modèle de processus PRINCE2. Le dessin montre plusieurs niveaux, dont la direction, le management du projet et la livraison par l'équipe. Il distingue la préparation, l'initialisation, les étapes d'exécution et la clôture. Parmi les sept processus lisibles figurent la préparation d'un projet, sa direction, son initialisation, le contrôle d'une étape, la gestion de la livraison des produits, la gestion d'une limite d'étape et la clôture. La version 7 présentée par PeopleCert conserve sept processus et accorde une place explicite à la gestion des personnes.[^8][^19]
 
+![Schéma PRINCE2 du cours, organisé par étapes et niveaux de responsabilité](assets/01-introduction/slide-27.png)
+
+*Diapositive 27. Le temps se lit de gauche à droite. En hauteur, le schéma de Management Plaza distingue la direction de l'organisation, le comité de projet, le chef de projet et l'équipe de réalisation. Une autorisation descend vers l'exécution. Un rapport ou une demande d'arbitrage remonte vers la direction.*[^8]
+
+| Processus de la figure | Décision ou échange illustré |
+|---|---|
+| Préparer le projet (SU) | Le mandat déclenche la préparation du dossier sommaire et du plan d'initialisation. |
+| Diriger le projet (DP) | Le comité autorise l'initialisation, le projet, les étapes ou un plan d'exception, puis la clôture. Il peut donner des orientations en cours d'étape. |
+| Initialiser le projet (IP) | Le chef de projet prépare le dossier d'initialisation et soumet la demande de réaliser le projet. |
+| Contrôler une étape (CS) | Le chef de projet confie les lots, reçoit l'avancement, remonte un rapport ou une exception et ajuste le travail dans sa délégation. |
+| Gérer la livraison des produits (MP) | L'équipe accepte un lot, crée et contrôle les produits, rend compte et remet le lot terminé. |
+| Gérer une limite d'étape (SB) | Le chef de projet présente le bilan et le plan de l'étape suivante, ou un plan d'exception. Le comité décide de la suite. |
+| Clore le projet (CP) | Le chef de projet prépare les documents de fin et la recommandation de clôture. Le comité autorise la clôture, y compris après un arrêt anticipé si nécessaire. |
+
+**Application.** Si un fournisseur annonce un retard qui menace une limite approuvée, le chef de projet évalue l'écart et remonte l'exception. Le comité décide si un plan modifié est acceptable. La figure distingue ainsi le suivi quotidien, les autorisations par étape et les arbitrages qui dépassent la délégation.[^8][^19]
+
 **Piège d'examen.** Une représentation PRINCE2 n'oblige pas chaque équipe à produire tous les documents visibles à la même taille ni à rejeter tout développement agile. Le schéma de la diapositive est une illustration de gouvernance et de flux de décision. Les détails d'application dépendent de l'édition et de l'adaptation de la méthode au projet.[^8][^19]
 
 ## 6. Comprendre l'échec et choisir des outils utiles
@@ -187,6 +242,15 @@ La diapositive 9 associe « méthode AGILE » et Rapid Application Development, 
 ### Lire correctement les chiffres de 2018
 
 **Contenu du cours.** La diapositive 28 reproduit un graphique du Project Management Institute daté de 2018. La question porte sur les projets commencés pendant les douze mois précédents qui ont été jugés en échec dans l'organisation répondante. Chaque personne pouvait choisir jusqu'à trois causes principales. Le graphique présente notamment le changement des priorités de l'organisation à 39 %, celui des objectifs du projet à 37 % et un recueil inexact des exigences à 35 %. L'insuffisance de vision ou de but, la mauvaise communication et l'absence de définition des occasions et risques sont chacune à 29 %. Les estimations de coûts inexactes et la mauvaise conduite du changement sont à 28 %.[^9][^22]
+
+| Part affichée | Causes déclarées dans la figure |
+|---:|---|
+| 39 %, 37 %, 35 % | Changement des priorités de l'organisation, changement des objectifs du projet, recueil inexact des exigences, respectivement. |
+| 29 % chacune | Vision ou but inadéquat, mauvaise communication, opportunités et risques mal définis. |
+| 28 % chacune | Estimations de coût inexactes, mauvaise conduite du changement. |
+| 26 % chacune | Soutien insuffisant du sponsor, dépendance à des ressources. |
+| 25 %, 22 %, 21 % | Durée des tâches mal estimée, chef de projet inexpérimenté, ressources limitées ou surchargées. |
+| 18 %, 13 %, 12 %, 10 % | Prévision insuffisante des ressources, procrastination dans l'équipe, dépendance entre tâches, autres causes. |
 
 | Ce que les pourcentages permettent de dire | Ce qu'ils ne permettent pas de dire |
 |---|---|
@@ -205,6 +269,12 @@ La diapositive 9 associe « méthode AGILE » et Rapid Application Development, 
 ### Évaluer, anticiper, choisir, communiquer
 
 **Contenu du cours.** La diapositive 30 répond à « Pourquoi des outils ? » par la clarté, l'objectivité et la rigueur. Elle leur associe l'évaluation, l'anticipation, le choix, la planification et la gestion, la communication, le suivi et le contrôle. Les trois dessins servent à montrer des problèmes de collaboration et de compréhension commune. La diapositive 31 reprend le dessin classique de la balançoire, dans lequel différents intervenants comprennent et réalisent différemment une même demande. Le support place à droite une balançoire simple comme « objectif du projet ».[^9]
+
+![Caricature de la balançoire montrant l'écart entre demande, conception, réalisation et besoin](assets/01-introduction/slide-31.png)
+
+*Diapositive 31. Le récit passe de l'explication du client à la compréhension du chef de projet, à la conception, à la réalisation et au discours commercial. Il oppose ensuite une documentation vide, une installation différente, une facture figurée par une attraction et un arbre coupé à une demande d'usage figurée par un pneu suspendu. La balançoire à droite est l'objectif ajouté sur la diapositive. La comparaison invite à valider le besoin à chaque transmission.*[^9]
+
+Les trois vignettes de la page 30 illustrent des fonctions distinctes. L'assemblage disparate montre le résultat d'interprétations divergentes. Les deux animaux attachés montrent qu'une coordination permet de satisfaire les deux besoins sans tirer chacun de son côté. La pose de rails évoque le séquencement de travaux qui doivent se rejoindre. Ensemble, les dessins relient les outils à l'objectif commun, à la collaboration et au suivi du travail.[^9]
 
 **Lecture pédagogique.** Une fiche de besoin, une maquette et un critère d'acceptation précis peuvent révéler les écarts avant la réalisation. Par exemple, « installer une balançoire » laisse ouverts l'âge des usagers, l'accessibilité, la sécurité, l'emplacement et l'entretien. Un outil de suivi rend visible une décision et sa justification. Il ne corrige pas à lui seul un objectif mal formulé. Le travail consiste à vérifier régulièrement l'accord entre besoin, solution dessinée, solution réalisée et usage réel.[^9]
 
@@ -251,6 +321,8 @@ flowchart LR
 8. **La clôture et l'exploitation se confondent-elles ?** Non. Le schéma du cours place la fin du projet au début de l'exploitation. La clôture vérifie le résultat et organise le transfert; l'organisation d'exploitation prend ensuite la responsabilité de l'usage courant.[^6][^12]
 9. **Un diagramme d'Ishikawa démontre-t-il les causes d'un retard ?** Non. Il organise des hypothèses de causes. Il faut les confronter aux dates, aux événements et aux témoignages pertinents avant de conclure.[^7][^16]
 10. **Quel est le risque d'une variante unique ?** L'équipe ne dispose d'aucun point de comparaison et peut ajuster les critères après coup pour justifier sa première idée. Produire au moins une autre variante et expliciter les critères rend le choix discutable.[^5]
+11. **Le projet a atteint son objectif d'usage, mais son coût dépasse le plafond. Que conclure ?** Présentez séparément l'effet obtenu et l'écart de coût. Expliquez la contrainte violée, l'arbitrage éventuel et la preuve disponible. Une seule mesure ne résume pas la performance du projet.[^2][^3][^9]
+12. **Une difficulté dépasse la marge de décision d'un chef de projet dans le schéma PRINCE2. Qui agit ?** L'équipe et le chef de projet documentent l'écart et ses conséquences. Le comité reçoit l'exception et arbitre la modification proposée.[^8][^19]
 
 ## 9. Couverture des 35 diapositives
 

@@ -2,7 +2,7 @@
 
 ## Rôle de cette fiche
 
-Cette fiche rassemble les règles d'organisation visibles dans les deux versions du support `0_MGT_427_organ`. Elle ne remplace pas une annonce ultérieure de l'enseignant. Lorsque les deux versions divergent, la version `organ2`, datée du 21 septembre 2026 dans les métadonnées du PDF, est considérée comme la version de travail la plus récente.[^1]
+Cette fiche suit l'unique [PDF d'organisation](../slides/0_MGT_427_organ_26.pdf) présent dans le dossier du cours. Le fichier correspond à l'export du 21 septembre 2026. Les règles ci-dessous décrivent ce support. Les conseils de préparation sont des compléments pédagogiques.[^1]
 
 ## Structure générale du cours
 
@@ -15,17 +15,18 @@ Le cours comporte quatorze séances de trois heures. Le support prévoit environ
 | Répartition indicative | 2 h de cours, 1 h de projet | Les méthodes vues en cours peuvent être intégrées progressivement au cas étudié |
 | Projet | 50 % de la note | La qualité de l'analyse et de la présentation compte autant que l'examen |
 | Examen en groupe | 50 % de la note | La préparation doit couvrir les concepts et leur application collective |
-| Présentations | Séances 11 à 13 dans la version récente | Le dispositif prévoit trois dates de présentation, ce qui remplace la répartition en deux dates de la première version |
+| Présentations | Séances 11 à 13 selon le calendrier détaillé | Trois créneaux figurent dans le programme de la page 3 |
+| Accès aux supports | Transmission directe et personnelle par courriel | Le canal indiqué par le PDF est le courriel individuel |
 
 > **Interprétation probable de la diapositive.** Le découpage de chaque séance suggère que le projet sert de terrain d'application continu. Une bonne présentation ne devrait donc pas juxtaposer une histoire de l'événement et quelques outils appris en classe. Elle devrait montrer comment les outils structurent le diagnostic, les choix, le traitement des risques et le retour d'expérience.
 
 ## Calendrier de l'automne 2026
 
-La version récente donne le calendrier suivant.[^3]
+La diapositive 3 donne le calendrier suivant.[^3]
 
 ![Calendrier officiel du cours pour l'automne 2026](assets/00-organisation/calendrier-automne-2026.png)
 
-*Source : support `0_MGT_427_organ2_26.pdf`, diapositive 3.*
+*Diapositive 3 du support d'organisation. Les mentions « Choix » et « Synthèse » figurent dans la colonne du projet de groupe.*
 
 | Séance | Date | Contenu annoncé |
 |---:|---:|---|
@@ -33,7 +34,7 @@ La version récente donne le calendrier suivant.[^3]
 | 2 | 15.09 | Introduction au management de projet II et exemple de projet à forte rupture technologique |
 | 3 | 22.09 | Management des risques I |
 | 4 | 29.09 | Management des risques II |
-| 5 | 06.10 | Intervention externe sur un projet de création de start-up |
+| 5 | 06.10 | Intervention de Matthew Reali, Ponera Group, sur un projet de création de start-up |
 | 6 | 13.10 | Évaluation technique de projets, simulation, démarche et exemples |
 | 7 | 27.10 | Évaluation économique de projets |
 | 8 | 03.11 | Planification, ordonnancement et suivi-contrôle |
@@ -45,6 +46,8 @@ La version récente donne le calendrier suivant.[^3]
 | 14 | 15.12 | Examen en groupes |
 
 Le support indique une remise des slides le **23 novembre 2026 avant 18 h par courriel**, pour tous les groupes.[^3] Cette date doit être contrôlée contre toute annonce plus récente avant l'envoi final.
+
+La colonne « Projets/groupes » place le **choix** à la séance 3 et la **synthèse** à la séance 10. Pour les présentations, la page 2 mentionne seulement les séances 12 et 13. Le calendrier daté de la page 3 ajoute la séance 11. La fiche retient les trois créneaux du calendrier détaillé. L'affectation de chaque groupe dépend des indications de l'enseignant.[^2][^3]
 
 ```mermaid
 flowchart LR
@@ -58,26 +61,18 @@ flowchart LR
 
 Le diagramme montre la logique pédagogique plutôt qu'une simple succession de dates. Le cours commence par définir le projet et son organisation. Il introduit ensuite les risques, puis les méthodes de décision, de planification et de comparaison. La présentation de groupe peut donc reprendre cette même progression.
 
-## Différences entre les deux versions du support
-
-Les deux fichiers ne sont pas identiques. Les différences visibles concernent surtout le calendrier et doivent rester traçables.
-
-| Point | Première version `organ` | Version récente `organ2` | Règle de travail |
-|---|---|---|---|
-| Introduction | Trois séances indiquées | Deux séances indiquées | Utiliser `organ2` |
-| Management des risques I | 29.09 | 22.09 | Utiliser `organ2` |
-| Management des risques II | 13.10 | 29.09 | Utiliser `organ2` |
-| Intervention externe | 06.10, Ponera | 06.10, Ponera Group | Le créneau ne change pas |
-| Évaluations et planification | Évaluation technique le 27.10, économique le 03.11, planification le 10.11 | Évaluation technique le 13.10, économique le 27.10, planification le 03.11 | Utiliser `organ2` |
-| Analyse multicritère | 17.11 et 24.11 | 10.11 et 17.11 | Utiliser `organ2` |
-| Présentations | Deux séances | Trois séances | Utiliser `organ2` |
-| Remise des slides | 30.11.2026 avant 18 h | 23.11.2026 avant 18 h | Retenir provisoirement le 23.11 |
-
 > **Point à confirmer.** Le support ne précise pas la durée de chaque présentation, le nombre de slides attendu, les critères détaillés du barème ou le temps réservé aux questions. Ces paramètres devront être obtenus avant la conception du diaporama final.
 
 ## Familles de sujets proposées
 
-Le support classe les exemples de projets en quatre familles. Cette classification montre l'étendue du cours et les angles sous lesquels un sujet peut être abordé.[^4]
+Le support classe les exemples en quatre familles. L'astérisque désigne un « projet multiple » dans la légende des quatre diapositives. Le PDF n'en précise pas les modalités.[^4]
+
+| Famille | Répertoire des exemples du PDF | Sujets marqués d'un astérisque |
+|---|---|---|
+| Méthodes (M1 à M8) | PRINCE2, HERMES, méthodes agiles, MERISE, choix multicritère (TOPSIS), normes et standards, formations PMI et IPMA, portefeuille de projets. | M3 |
+| Risques (R1 à R10) | AMDEC, MOSAR, MADS, HAZOP, LOPA, HACCP, identification, enchaînement (dont IA), prévention, analyse des risques d'une organisation ou d'un processus. | R7, R9, R10 |
+| Organisation (O1 à O14) | Organisation par métier ou sujet, changement, audit, échecs, qualité, RH, conflits, brainstorming, Delphi, communication, clôture et bilan, base de connaissances, financement, financement international. | O1 |
+| Applications (A1 à A21) | Événements sportifs et culturels, projets internationaux, avant-projets de grands événements, industrie, informatique, maintenance préventive, schéma directeur administratif, urbanisme, santé, lancement de produit, qualité, sécurité, Lean (5S et Six Sigma), lancement de start-up, création de produit, innovation, transport, génie civil, systèmes d'information, transformation numérique. | A1 à A7, A10 à A14, A16 à A21 |
 
 ### Méthodes de management de projet
 
@@ -154,6 +149,18 @@ flowchart TD
 
 Cette séquence place la vérification avant l'analyse finale. Elle évite deux erreurs fréquentes : appliquer une méthode à des faits mal établis et sélectionner trop tôt une narration que les preuves ne soutiennent pas.
 
+### S'entraîner à l'examen en groupe
+
+**Complément pédagogique.** Prenez un cas fictif court. Chaque personne propose d'abord une réponse, puis le groupe décide quelle hypothèse retenir et comment la vérifier. Une bonne réponse relie une donnée du cas à un outil, à un résultat et à une décision. Entraînez-vous aussi à expliquer une limite du résultat à voix haute.
+
+| Question de révision | Fiche à utiliser |
+|---|---|
+| Qui décide, quel besoin est mesuré, quelles variantes sont possibles ? | [Introduction](01-introduction-au-management-de-projet.md) |
+| Quel événement menace l'objectif, comment le coter et le traiter ? | [Analyse des risques](02-analyse-des-risques.md) |
+| Quelle preuve permet de passer du prototype au pilote puis au déploiement ? | [Cas Ponera](03-intervention-gestion-de-projet.md) |
+| Quelle variante crée le plus de valeur au taux retenu ? Que change l'incertitude ? | [Évaluation économique](04-evaluation-economique.md) |
+| Quelle chaîne fixe la date de fin ? Que changent les ressources et les calendriers ? | [Planification](05-planification-de-projet.md) |
+
 ## Questions à clarifier avant le diaporama
 
 - Quelle est la durée exacte de l'oral ?
@@ -173,7 +180,7 @@ Ces questions ne bloquent pas la recherche. Elles deviennent nécessaires au mom
 |---:|---|---|
 | 1 | Page de titre | Rôle de cette fiche |
 | 2 | Structure générale, notation et accès aux supports | Structure générale du cours |
-| 3 | Programme de l'automne 2026 | Calendrier et différences entre versions |
+| 3 | Programme, jalons du projet, remise et calendrier des présentations | Calendrier de l'automne 2026 |
 | 4 | Sujets portant sur les méthodes | Méthodes de management de projet |
 | 5 | Sujets portant sur les risques | Méthodes d'analyse des risques |
 | 6 | Organisation, RH et thèmes associés | Organisation et facteurs humains |
@@ -181,10 +188,10 @@ Ces questions ne bloquent pas la recherche. Elles deviennent nécessaires au mom
 
 ## Références
 
-[^1]: Philippe Wieser, *Management de projet : organisation du cours*, `0_MGT_427_organ_26.pdf` et `0_MGT_427_organ2_26.pdf`, diapositives 1 à 7. Les métadonnées PDF indiquent respectivement une modification le 7 septembre 2026 et le 21 septembre 2026.
-[^2]: Philippe Wieser, *Management de projet : organisation du cours*, `0_MGT_427_organ2_26.pdf`, diapositive 2.
-[^3]: Philippe Wieser, *Management de projet : organisation du cours*, `0_MGT_427_organ2_26.pdf`, diapositive 3. Comparaison avec `0_MGT_427_organ_26.pdf`, diapositive 3.
-[^4]: Philippe Wieser, *Management de projet : organisation du cours*, `0_MGT_427_organ2_26.pdf`, diapositives 4 à 7.
+[^1]: Philippe Wieser, [*Management de projet, organisation du cours*](../slides/0_MGT_427_organ_26.pdf), diapositives 1 à 7. Les métadonnées identifient la présentation `0_MP_Organi2_2026.pptx`, exportée le 21 septembre 2026.
+[^2]: Philippe Wieser, [structure du cours et accès aux supports](../slides/0_MGT_427_organ_26.pdf#page=2), diapositive 2.
+[^3]: Philippe Wieser, [programme d'automne 2026](../slides/0_MGT_427_organ_26.pdf#page=3), diapositive 3.
+[^4]: Philippe Wieser, [exemples de sujets](../slides/0_MGT_427_organ_26.pdf#page=4), diapositives 4 à 7.
 [^5]: Ibid., diapositive 4.
 [^6]: Ibid., diapositive 5.
 [^7]: Ibid., diapositive 6.

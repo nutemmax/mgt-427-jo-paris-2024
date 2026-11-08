@@ -2,29 +2,29 @@
 
 ## Périmètre et méthode
 
-La première partie documente le lot initial de quatre PDF. Les deux versions historiques de l'organisation y sont comparées page par page. Les tableaux d’introduction et d’analyse des risques recensent chaque diapositive de ces deux supports. Les trois supports ajoutés en novembre 2026 sont référencés dans la dernière section. Leurs tableaux de couverture figurent dans les fiches correspondantes.
+Cette cartographie couvre les six PDF du dossier `slides`, soit 235 pages. Les numéros de cours reprennent les préfixes des fichiers. Chaque section associe le PDF à sa fiche et indique le contenu des pages.
 
-Les PDF ont été lus par extraction de texte et par inspection des pages rendues. La colonne « Visuel » décrit le type de contenu graphique. La mention **À voir** signale les pages où le texte extrait ne suffit pas à comprendre le contenu, à lire les libellés, ou à interpréter un diagramme ou une image. Les approfondissements proposés indiquent les points à développer dans les fiches de cours. Ils ne complètent pas les supports par des faits externes.
+Dans les tableaux des cours 1 et 2, **À voir** signale un visuel dont le texte extrait ne restitue pas tous les détails. La colonne « Références visibles » distingue les références inscrites sur la diapositive des sources ajoutées dans les fiches.
 
-Dans les tableaux, le numéro de diapositive est aussi le localisateur de la citation. Les références numériques renvoient aux PDF décrits à la fin du document. « Aucun visible » signifie qu’aucune référence bibliographique explicite n’apparaît sur la diapositive. Une personne, un logo, une URL ou un nom de cabinet est signalé comme tel sans être traité comme une référence complète.
+Les tableaux des cours 3, 4 et 5 reprennent les tableaux de couverture de leurs fiches. La colonne « Section de la fiche » renvoie à l'explication correspondante. Pour le cours 3, les plages de pages regroupent les diapositives consacrées au même sujet.
 
-## Versions du support d’organisation
+## Cours 0 · Organisation du cours
 
-Les deux fichiers sont des versions datées de 2026, avec sept diapositives chacun. Le support `0_MGT_427_organ_26.pdf` a été exporté le 7 septembre 2026. Le support `0_MGT_427_organ2_26.pdf` a été exporté le 21 septembre 2026. Les diapositives 1 à 2 et 4 à 7 ont le même contenu; la diapositive 3 a été mise à jour. [1] [2]
+Philippe Wieser, 7 pages. Le fichier présent dans `slides` correspond à l'export du 21 septembre 2026. [Support PDF](../slides/0_MGT_427_organ_26.pdf) · [Fiche 00](00-organisation-du-cours.md)
 
-| Diapo | `0_MGT_427_organ_26.pdf` | `0_MGT_427_organ2_26.pdf` | Lecture de l’écart |
-|---:|---|---|---|
-| 1 | Page de titre, année 2026. | Même page de titre. | Pas de changement de fond visible. |
-| 2 | Format des séances, évaluation et distribution des supports. | Même contenu. | Pas de changement de fond visible. |
-| 3 | Programme d’automne 2026. La séance du 22 septembre est « Introduction au Management de Projet III »; celle du 29 septembre est « Management des risques I »; le 6 octobre est l’intervention Ponera. L’évaluation technique et l’évaluation économique sont prévues les 27 octobre et 3 novembre. Remise des diapositives le 30 novembre 2026 avant 18 h. | La séance du 22 septembre devient « Management des risques I »; celle du 29 septembre devient « Management des risques II »; l’intervention Ponera est le 6 octobre. L’évaluation technique et l’évaluation économique passent aux 13 et 27 octobre. Remise des diapositives le 23 novembre 2026 avant 18 h. | Les deux séances sur les risques avancent d’une semaine, l’intervention reste au 6 octobre, et les évaluations avancent de deux semaines. La date limite de remise a été avancée d’une semaine. |
-| 4 | Exemples de sujets de projet, rubrique « Méthodes ». | Même contenu. | Aucun changement visible. |
-| 5 | Exemples de sujets de projet, rubrique « Risques ». | Même contenu. | Aucun changement visible. |
-| 6 | Exemples de sujets de projet, rubrique « Organisation, RH, … ». | Même contenu. | Aucun changement visible. |
-| 7 | Exemples de sujets de projet, rubrique « Applications, exemples ». | Même contenu. | Aucun changement visible. |
+| Page du PDF | Contenu |
+|---:|---|
+| 1 | Page de titre du cours, année 2026. |
+| 2 | Quatorze séances de trois heures, temps réservé au projet, évaluation à parts égales entre projet et examen en groupe, accès aux supports. |
+| 3 | Calendrier de l'automne 2026. Management des risques les 22 et 29 septembre, intervention Ponera le 6 octobre, évaluation technique le 13 octobre, évaluation économique le 27 octobre et planification le 3 novembre. Remise des diapositives par courriel le 23 novembre avant 18 h. Présentations les 24 novembre, 1er et 8 décembre, puis examen le 15 décembre. |
+| 4 | Sujets sur les méthodes de management de projet, dont PRINCE2, HERMES, agilité, MERISE et gestion de portefeuille. |
+| 5 | Sujets sur l'analyse des risques, dont AMDEC, MOSAR, MADS, HAZOP, LOPA et HACCP. |
+| 6 | Sujets sur l'organisation, la conduite du changement, les ressources humaines, la communication et la clôture du projet. |
+| 7 | Exemples d'applications dans l'événementiel, l'industrie, l'informatique, la santé et les projets internationaux. |
 
-## Introduction au management de projet
+## Cours 1 · Introduction au management de projet
 
-Le support suit une progression qui va des définitions du projet à son organisation et à son cycle de vie, puis aux outils de diagnostic, aux méthodes et à la justification des outils. Les pages 8, 23, 27, 28 et 31 à 35 dépendent particulièrement de leurs visuels. [3]
+Philippe Wieser, 35 pages. Le support couvre la définition du projet, son organisation, son cycle de vie et les outils de diagnostic. [Support PDF](../slides/1_MGT_427_intro_26.pdf) · [Fiche 01](01-introduction-au-management-de-projet.md)
 
 | Diapo | Thème et concepts | Visuel | À approfondir pour la fiche | Références visibles |
 |---:|---|---|---|---|
@@ -55,7 +55,7 @@ Le support suit une progression qui va des définitions du projet à son organis
 | 25 | Panorama des méthodes générales, spécifiques et des certifications. | Carte hiérarchique reliant méthodes et domaines. | Délimiter les catégories et les usages donnés dans le support. | PMP/PMI; IPMA; méthodes PRINCE2, HERMES, Agile, Waterfall, AMDEC, MOSAR, HAZOP, MERISE et ITIL. |
 | 26 | Comparaison des approches classiques et Agile; stabilité ou évolution des besoins; étapes et sprints. | Deux parcours de projet comparés et flèche d’interaction. | Expliquer les hypothèses de chaque approche et l’ajout d’agilité. | Manifeste Agile, 2001. |
 | 27 | Exemple de processus PRINCE2. | Diagramme de processus dense. **À voir** | Lire le processus, ses étapes et ses relations; le texte extrait ne restitue pas le diagramme. | Logo PRINCE2; source du diagramme non indiquée. |
-| 28 | Causes d’échec de projets, données présentées pour 2018. | Graphique horizontal de facteurs et pourcentages. **À voir** | Relever les libellés, les pourcentages et la source exacte du sondage. | PMI, 2014 visible sur le rendu; métadonnées de l’étude à vérifier. |
+| 28 | Causes d’échec de projets, données présentées pour 2018. | Graphique horizontal de facteurs et pourcentages. **À voir** | Relever les libellés, les pourcentages et la source exacte du sondage. | PMI, 2018. |
 | 29 | Facteurs de succès; objectifs, besoins, risques, organisation, communication, ressources et contrôle. | Liste textuelle avec flèche d’importance des méthodes et outils. | Organiser les facteurs sans leur attribuer de hiérarchie absente. | Aucune visible. |
 | 30 | Rôle des outils pour évaluer, anticiper, choisir, planifier, communiquer, suivre et contrôler. | Schéma textuel et trois vignettes illustrées. **À voir** | Relier les exemples visuels aux fonctions de l’outil. | Aucune visible. |
 | 31 | Objectif du projet et raisons d’utiliser des outils. | Bande dessinée en plusieurs vignettes autour d’un arbre et de son résultat. **À voir** | Décrire le contraste entre interprétations de l’objectif et résultat attendu. | `technetium87.wordpress.com`. |
@@ -64,17 +64,17 @@ Le support suit une progression qui va des définitions du projet à son organis
 | 34 | Identification, quantification et maîtrise des risques ajoutées au schéma précédent. | Même courbe de réactions, avec un encadré sur la gestion des risques. **À voir** | Expliquer ce que l’ajout change par rapport à la diapositive précédente. | D’après Gassé. |
 | 35 | Méthodes et outils communs aux méthodologies de management de projet; variantes, choix, réalisation, clôture. | Flèche de synthèse avec les domaines d’outils. **À voir** | Lire chaque domaine placé au-dessus de la séquence commune. | Aucune visible. |
 
-## Analyse des risques
+## Cours 2 · Analyse des risques
 
-Le support progresse de la définition et de la combinaison des risques vers leur identification, leur quantification et leur maîtrise, puis leur application au management de projet. Les visuels portent une part importante du contenu, notamment dans les exemples, matrices, simulations et schémas de processus. [4]
+Philippe Wieser, 69 pages. Le support couvre la définition, la combinaison, l'identification, la quantification et la maîtrise des risques. [Support PDF](../slides/2_MGT_427_risks_26.pdf) · [Fiche 02](02-analyse-des-risques.md)
 
 | Diapo | Thème et concepts | Visuel | À approfondir pour la fiche | Références visibles |
 |---:|---|---|---|---|
 | 1 | Page de titre, analyse du risque. | Couverture photographique et logos. | Aucun complément de contenu requis. | EPFL-CDM-IML; année 2026. |
 | 2 | Rappel de la définition du projet; objectifs mesurables, besoins et évolution d’un état à un autre. | Schéma d’états, besoins et mesures. | Relier le rappel à l’analyse des risques qui suit. | Aucune visible. |
 | 3 | Définitions du risque par combinaison danger, probabilité, conséquences, impact, gravité et aversion. | Bloc de définition et photos d’exemple. **À voir** | Comparer les deux formulations ISO/CEI et les notions mentionnées. | ISO/CEI 73; ISO/CEI 51. |
-| 4 | Exemples visuels de risque et de danger. | Objet endommagé et embarcation sur l’eau. **À voir** | Décrire ce que chaque image illustre; le texte extrait ne nomme pas les scènes. | Aucune visible. |
-| 5 | Exemples visuels de risque et d’exposition. | Photo d’une personne dans l’eau et panneau d’avertissement en forêt. **À voir** | Décrire les situations représentées et leur lien avec la définition. | Aucune visible. |
+| 4 | Exemples visuels de risque et de danger. | Scène avec des cymbales et parachutiste au-dessus de l'eau. **À voir** | Distinguer le danger initial de l'exposition liée au lieu. | Aucune visible. |
+| 5 | Exemple visuel de risque et d’exposition. | Panneau demandant aux marcheurs et cyclistes de s'écarter à l'approche d'un véhicule. **À voir** | Relier l'avertissement au comportement attendu. | Aucune visible. |
 | 6 | Impact du risque; exemple des erreurs médicales comparées aux accidents routiers. | Texte, couverture de livre et illustration statistique. **À voir** | Vérifier les dates, territoires, unités et sources des chiffres avant de les reprendre. | Institute of Medicine; *To Err Is Human*; article suisse de 2019 mentionné sans référence complète. |
 | 7 | Cindynique et démarche d’identification, quantification et maîtrise. | Définition, trois opérations et illustration humoristique. | Définir le terme et détailler les trois opérations selon le support. | Aucune visible. |
 | 8 | Calcul du risque par produit probabilité × gravité. | Courbe de risque avec cas fréquents/faibles et rares/graves. | Expliquer les axes, l’hypothèse de niveau constant et les limites à documenter. | Aucune visible. |
@@ -93,7 +93,7 @@ Le support progresse de la définition et de la combinaison des risques vers leu
 | 21 | Pyramide de Bird et approche systémique des risques. | Pyramide des incidents et accidents, avec ratios. **À voir** | Relever les niveaux et leur source; préciser le rôle annoncé des actions préventives. | F. E. Bird; Insurance Company of North America, 1969; échantillon indiqué sur la diapositive. |
 | 22 | Méthodes d’identification des risques internes et externes. | Liste textuelle de réunions, méthodes, experts, historiques, comparaison, signaux faibles et IA. | Définir les méthodes proposées et organiser leur emploi. | Aucune visible. |
 | 23 | Identification par signaux faibles, expériences croisées, taxonomie, scénarios, simulation et mégatendances. | Liste de concepts et logos d’outils. **À voir** | Identifier les outils montrés et séparer les notions de la liste. | Prewave; QuantCube Technology. |
-| 24 | Identification des risques par mégatendances. | Carte de réseau des transports utilisée comme exemple de scénario. **À voir** | Lire les branches et comprendre le scénario représenté. | Titre «Mega Trend»; source de la carte non visible. |
+| 24 | Identification des risques par mégatendances. | Carte de tendances en forme de plan de métro. **À voir** | Lire les croisements comme des pistes de scénarios. | *Megatrend-Map*, Zukunftsinstitut. |
 | 25 | Approche systémique, signaux faibles et expériences croisées entre métiers. | Portrait de l’intervenant et illustration d’un groupe de travail. **À voir** | Relier l’image aux recommandations sans attribuer de contenu supplémentaire à l’intervenant. | Arthur Keller, nom visible. |
 | 26 | Brainstorming; expression libre, diversité, animation, tri et Brown Paper. | Groupe en réunion, photo de Brown Paper et citation. **À voir** | Détailler les règles, le rôle de l’animateur et les étapes de tri. | Vincia Consulting; citation attribuée à F. Hundertwasser. |
 | 27 | Brainstorming selon Alex Osborn; production et combinaison des idées. | Portrait et texte explicatif. | Séparer les principes méthodologiques de l’affirmation chiffrée sur le rendement. | Alex Osborn, 1888–1966. |
@@ -116,7 +116,7 @@ Le support progresse de la définition et de la combinaison des risques vers leu
 | 44 | Limites de l’approche AMDEC et variantes MOSAR, MADS, HAZOP, LOPA, HACCP. | Encadré de limite et liste des variantes. | Développer les limites de l’approche statique et distinguer les méthodes citées. | Aucune visible. |
 | 45 | Suivi des risques dans le temps et l’espace; mise à jour et expériences croisées. | Matrice de risque avec flèche d’évolution et cycle de suivi. **À voir** | Expliquer le déplacement des risques et le principe de mise à jour. | Prewave; QuantCube; autres logos peu lisibles. |
 | 46 | Combinaison de risques par simulation numérique pour un projet nouveau ou une amélioration. | Captures de modèles et simulations d’espaces ou de processus. **À voir** | Décrire les modèles et leurs paramètres; les captures ne sont pas détaillées dans le texte. | FlexSim. |
-| 47 | Résultats d’une simulation répétée; distribution et recherche des causes d’un résultat. | Histogramme avec min, moyenne et max, plus capture de simulation. **À voir** | Lire la distribution et le nombre de runs; préciser l’exemple de processus. | Aucune visible. |
+| 47 | Résultats d’une simulation répétée; distribution et recherche des causes d’un résultat. | Courbe schématique avec min, « p.p. », max et dispersion, plus deux captures FlexSim. **À voir** | Lire la queue défavorable et le rôle des répétitions. Le nombre de répétitions reste symbolique ($N$). | FlexSim. |
 | 48 | Approches de combinaison par IA et expériences croisées; projet de recherche. | Courbes de risque, carte de données et écran logiciel. **À voir** | Décrire séparément identification, quantification et combinaison; préciser le projet cité. | Chaire SCF–ENPC; Mohamed Saâd El Harrab; PhW. |
 | 49 | Arbre de décision d’une offre commerciale; prix, coût unitaire et marges possibles. | Arbre de décision avec trois options de prix. **À voir** | Suivre les branches et contrôler le calcul des gains unitaires. | Aucune visible. |
 | 50 | Arbre de décision; événements gagner/perdre, probabilités et gains. | Arbre annoté avec probabilités et montants. **À voir** | Vérifier l’affectation des probabilités à chaque branche. | Aucune visible. |
@@ -140,26 +140,106 @@ Le support progresse de la définition et de la combinaison des risques vers leu
 | 68 | Approche déterministe et probabiliste de la planification; risque de dépassement de délai. | Réseaux d’activités et courbes de durée. **À voir** | Lire les dépendances et comparer les dates de fin selon les deux approches. | Aucune visible. |
 | 69 | Synthèse; catégories de risques, méthodes et contraintes de coût, délai et qualité. | Schéma de synthèse reliant risques internes/externes au triangle coût-délai-qualité. **À voir** | Reprendre les catégories et méthodes comme plan de synthèse du support. | Aucune visible. |
 
-## Contrôle de couverture
+## Cours 3 · Innovation industrielle et entrepreneuriat
 
-Le contrôle porte sur les numéros de la colonne « Diapo » dans les deux tableaux. L’introduction contient 35 lignes, de 1 à 35, sans numéro manquant ni doublon. L’analyse des risques contient 69 lignes, de 1 à 69, sans numéro manquant ni doublon. Total cartographié pour ces deux supports: 104 diapositives. Les deux versions du support d’organisation ont aussi été comparées sur leurs 7 pages chacune.
+Matthew Reali, intervention Ponera du 6 octobre 2026, 64 pages. [Support PDF](../slides/3_MGT_427_guest_lecture_PMRA.pdf) · [Fiche 03](03-intervention-gestion-de-projet.md)
 
-L'audit du 30 septembre 2026 a relié chaque ligne à la table de couverture de la fiche correspondante. Les 118 pages des quatre PDF ont une entrée dans cette cartographie et une destination dans les notes. Les colonnes « À approfondir » décrivent les points qui demandaient une explication au-delà du texte extrait. Les fiches auditées apportent ces explications ou indiquent pourquoi le support ne permet pas une conclusion plus précise.
+| Pages du PDF | Contenu couvert | Section de la fiche |
+|---:|---|---|
+| 1–2 | Titre, intervenant et contexte professionnel | Introduction |
+| 3–5 | Exemples d'emballages et ordres de grandeur revendiqués | § 1 |
+| 6–9 | Mission, matériel modulaire, impacts et coûts | § 1 |
+| 10–12 | IoT, modèle économique, essais, clients et charges | § 1, § 6 |
+| 13–14 | Point de départ de l'innovation et deux trajectoires | § 2 |
+| 15–16 | Comparaison des processus Bühler actuel et visé | § 1 |
+| 17–19 | Constats logistiques, Internet physique et comparaison des réseaux | § 1 |
+| 20–21 | Modularité, réseau d'acteurs et plateforme | § 1 |
+| 22–24 | Transition vers la validation, causes d'échec et recherche des goulots | § 2 |
+| 25–26 | Carte concurrentielle, SAM et présentation au marché dès 2019 | § 2 |
+| 27–30 | Développement, MVP, premiers prototypes, transition financière et équipe | § 3 |
+| 31–33 | Pitch, jalons, financement, estimation du marché et extension numérique | § 2, § 3 |
+| 34–36 | Simulation, moules et démarrage industriel | § 4 |
+| 37–40 | Itérations, essais opérationnels, décision go/no-go et POC clients | § 4 |
+| 41–43 | Liaison, requalification et charges supérieures à 15 t | § 4 |
+| 44–46 | Réduction des barrières à l'adoption, cycle de vente et identification du client | § 5 |
+| 47–49 | Cas CH–RO, FR–FR et aide à l'intégration opérationnelle | § 5 |
+| 50–53 | Intelligence de marché, risque linéaire et circulaire, offre et cas tarifaires | § 6 |
+| 54 | Contexte du Net-Zero Industry Act | § 7 |
+| 55–56 | Financement de la solution complète et chaîne d'approvisionnement | § 3, § 4 |
+| 57–60 | Conception de la caisse, prototypes, pilotes et données techniques | § 4 |
+| 61 | Équipement connecté, logiciel, données et flotte | § 6 |
+| 62–64 | Gouvernance, évolutions externes et neuf enseignements | § 7 |
 
-## Références aux supports
+## Cours 4 · Évaluation économique d'un projet
 
-[1] Philippe Wieser, `0_MGT_427_organ_26.pdf`, «Management de projet: organisation du cours», export du 7 septembre 2026, 7 diapositives.
+Philippe Wieser, 24 pages. Le millésime imprimé est 2024. [Support PDF](../slides/4_MGT_427_eco_26.pdf) · [Fiche 04](04-evaluation-economique.md)
 
-[2] Philippe Wieser, `0_MGT_427_organ2_26.pdf`, «Management de projet: organisation du cours», export du 21 septembre 2026, 7 diapositives.
+| Pages du PDF | Contenu couvert | Section de la fiche |
+|---:|---|---|
+| 1 | Titre, auteur, millésime et horizon incertain. | Ouverture |
+| 2 | Cycle, marge de manœuvre, coûts, approches, critères, risque. | 1 |
+| 3 | Échéancier, conventions de signe, données primaires. | 1, 6 |
+| 4 | Quatre variantes graphiques, question du choix. | 1 |
+| 5 | VAN, actualisation des composantes et valeur résiduelle. | 2 |
+| 6 | VAN, TIR, flux actualisé, cumul, DRCI. | 2, 3 |
+| 7 | Portée comparative et économique, financement, ROI. | 2, 3 |
+| 8 | Choix A/B et trois approches. | 4 |
+| 9 | Résultat ponctuel, plage et distribution. | 4 |
+| 10 | Variation et classement, bande de VAN en fonction du taux. | 4 |
+| 11 | Classement des entrées et calibration éventuelle des lois. | 4 |
+| 12 | Échéancier, données déterministes ou probabilistes, lois et couplages. | 4 |
+| 13 | Fonction cumulée, tirages, histogramme et intervalle. | 4 |
+| 14 | Arbre MODEC, métadonnées et sorties de la variante. | 5 |
+| 15 | Investissements par année et durée, dépenses annuelles, valeurs de référence et bornes. | 5 |
+| 16 | Auxiliaires et relations de coût et de vente. | 5 |
+| 17 | Comparaison de profils de VAN pour plusieurs taux. | 5 |
+| 18 | Analyse par groupe, écarts et bandes globale et partielle. | 5 |
+| 19 | Structuration des variables, couplages, choix de fonction et cumul. | 5 |
+| 20 | 500 tirages de VAN, histogramme, cumul, moyenne et dispersion. | 5 |
+| 21 | Parking de 500 places et localisation sur la carte. | 6 |
+| 22 | Photos du relief et de l'environnement construit. | 6 |
+| 23 | Coupe du parking, rampe, circulation et interface avec la surface. | 6 |
+| 24 | Cas déterministe, financement, scénario bas, anticipation et moratoire. | 6 |
 
-[3] Philippe Wieser, `1_MGT_427_intro_26.pdf`, «Management de projet: introduction», 2024, 35 diapositives.
+## Cours 5 · Planification et ordonnancement
 
-[4] Philippe Wieser, `2_MGT_427_risks_26.pdf`, «Management de projet: analyse du risque», 2026, 69 diapositives.
+Philippe Wieser, 36 pages. Le millésime imprimé est 2020. [Support PDF](../slides/5_MGT_427_planif_26.pdf) · [Fiche 05](05-planification-de-projet.md)
 
-## Supports ajoutés en novembre 2026
-
-| Support | Pages | Repères principaux | Cartographie détaillée |
-|---|---:|---|---|
-| [Intervention Ponera](../slides/3_MGT_427_guest_lecture_PMRA.pdf) | 64 | Emballages et Internet physique (3–21), validation et premier financement (22–33), essais et qualification (34–43), vente et circularité (44–55), industrialisation et gouvernance (56–64). | [Fiche 03](03-intervention-gestion-de-projet.md) |
-| [Évaluation économique](../slides/4_MGT_427_eco_26.pdf) | 24 | Échéancier et critères (2–7), sensibilité et simulation (8–13), logiciel MODEC (14–20), parking urbain (21–24). | [Fiche 04](04-evaluation-economique.md) |
-| [Planification et ordonnancement](../slides/5_MGT_427_planif_26.pdf) | 36 | Réseaux et Gantt (2–14), charges et calendriers (15–21), suivi et logiciel (22–29), décomposition et dépendances (30–33), risque et consolidation (34–36). | [Fiche 05](05-planification-de-projet.md) |
+| Pages du PDF | Contenu couvert | Section de la fiche |
+|---:|---|---|
+| 1 | Titre, auteur et millésime imprimé. | Introduction |
+| 2 | Variantes, coûts cumulés, marge de manœuvre, analyse des risques et multicritère. | 1.1 |
+| 3 | Puzzle, liste, liens, ordonnancement et axe de planification. | 1.2 |
+| 4 | Contraintes physiques, administratives, exogènes, de ressources et de sécurité. | 1.2 |
+| 5 | Origine de PERT et onze étapes du PERT étendu. | 1.3 |
+| 6 | Potentiels-étapes, arc fictif, potentiels-activités et types de lien. | 2.2 |
+| 7 | Cases $Dt$, $Ft$, $DT$, $FT$ et durée de la tâche. | 3.1 |
+| 8 | Calcul au plus tôt et bornes aval. | 3.2 à 3.4 |
+| 9 | Calcul au plus tard depuis la fin. | 3.2 à 3.4 |
+| 10 | Marges libres et totales, calcul d'E et notation. | 3.4 |
+| 11 | Durée de 16 et chemin A–B–C–D. | 3.3 et 3.4 |
+| 12 | Limites de la représentation en réseau et diffusion des marges. | 4 |
+| 13 | Gantt au plus tôt, durées et légende des marges. | 4 |
+| 14 | Gantt au plus tard, contours au plus tôt et convention de diffusion. | 4 |
+| 15 | Catégories de ressources, affectations et conséquences. | 5.1 |
+| 16 | Taux de charge, charges par tâche, total 80 et moyenne 5. | 5.1 |
+| 17 | Profil au plus tôt construit à partir du Gantt. | 5.1 et 5.2 |
+| 18 | Indice +13 et ordre des actions de lissage. | 5.2 et 5.3 |
+| 19 | Comparaison des deux profils et indice +11. | 5.2 |
+| 20 | Calendriers de projet, de tâche et de ressource. | 6.1 |
+| 21 | Borne fixe finale ou intermédiaire, manifestation et logique inverse. | 6.2 |
+| 22 | Détail du réseau de la variante retenue pour le suivi. | 1.1 et 7.1 |
+| 23 | Relevé, avancement, intervention pour C, F conforme et H à surveiller. | 7.1 |
+| 24 | Comité, direction, utilisateurs, procès-verbal, planning et budget. | 7.2 |
+| 25 | Réseau sur cinq jours ouvrables dans Project. | 7.3 |
+| 26 | Gantt daté, champs d'activité, marges et affectations. | 7.3 |
+| 27 | Histogramme de ressource et surutilisation. | 7.3 |
+| 28 | Gantt de suivi et valeurs d'avancement. | 7.3 |
+| 29 | Project 2019, vues réseau et Gantt, écart sur le lien B→F. | 7.3 |
+| 30 | WBS et décomposition top-down. | 2.1 |
+| 31 | Agrégation bottom-up et activité hamac. | 2.1 |
+| 32 | Quatre vues de regroupement en Gantt hiérarchique. | 2.1 |
+| 33 | Fin-début standard et deux formes de décalage. | 2.3 |
+| 34 | Date déterministe et distribution de la date de fin. | 8.1 |
+| 35 | Marges, indice de criticité et aire de dépassement. | 8.1 à 8.3 |
+| 36 | Consolidation d'une ressource par projet, période et instant. | 9 |
