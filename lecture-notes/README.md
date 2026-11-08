@@ -1,24 +1,18 @@
 # Notes du cours MGT-427
 
-Ce dossier rassemble une fiche détaillée par support logique du cours. Les notes complètent les diapositives avec des explications pédagogiques et des sources externes. Elles distinguent toujours le contenu du support, le complément documenté et l'interprétation.
+Une fiche par support pour réviser le cours. Les fiches reprennent les diapositives et développent les notions avec des explications, des exemples et des exercices.
 
-| Fiche | Support principal | État |
-|---|---|---|
-| [Organisation du cours](00-organisation-du-cours.md) | [Support d'organisation](../slides/0_MGT_427_organ_26.pdf) | Auditée |
-| [Introduction au management de projet](01-introduction-au-management-de-projet.md) | `1_MGT_427_intro_26.pdf` | Auditée |
-| [Analyse des risques](02-analyse-des-risques.md) | `2_MGT_427_risks_26.pdf` | Auditée |
-| [Innovation et entrepreneuriat, cas Ponera](03-intervention-gestion-de-projet.md) | [Intervention invitée](../slides/3_MGT_427_guest_lecture_PMRA.pdf) | Fiche ciblée sur les méthodes et les cas |
-| [Évaluation économique d'un projet](04-evaluation-economique.md) | [Support d'évaluation économique](../slides/4_MGT_427_eco_26.pdf) | Fiche avec calculs et exercices |
-| [Planification et ordonnancement](05-planification-de-projet.md) | [Support de planification](../slides/5_MGT_427_planif_26.pdf) | Fiche avec réseau, marges et exercices |
+- [00 · Organisation du cours](00-organisation-du-cours.md)
+- [01 · Introduction au management de projet](01-introduction-au-management-de-projet.md)
+- [02 · Analyse des risques](02-analyse-des-risques.md)
+- [03 · Innovation et entrepreneuriat, cas Ponera](03-intervention-gestion-de-projet.md)
+- [04 · Évaluation économique d'un projet](04-evaluation-economique.md)
+- [05 · Planification et ordonnancement](05-planification-de-projet.md)
 
-La [cartographie des supports](source-map.md) localise les concepts. Les trois nouvelles fiches intègrent leur propre tableau de couverture et des renvois aux pages des PDF.
-
-Pour réviser les calculs, commencez par les échéanciers, la VAN et les scénarios du cours 4. Reprenez ensuite le réseau du cours 5 sans regarder les dates calculées. Le cas Ponera permet d'appliquer ces notions à un produit dont il faut valider le marché, la fabrication et le déploiement.
+La [cartographie des supports](source-map.md) indique où chaque notion apparaît dans les PDF.
 
 ## Convention de lecture
 
-> **Contenu du cours** désigne une information présente dans les diapositives.
-
-> **Complément pédagogique sourcé** développe une notion à partir d'une source externe.
-
-> **Interprétation probable de la diapositive** propose une lecture utile, sans l'attribuer au professeur.
+- **Contenu du cours** désigne une information tirée des diapositives.
+- **Complément pédagogique sourcé** désigne une explication appuyée par une source externe.
+- **Interprétation probable de la diapositive** désigne une lecture proposée dans la fiche, sans l'attribuer à l'enseignant.
